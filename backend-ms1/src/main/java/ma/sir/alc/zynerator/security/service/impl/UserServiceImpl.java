@@ -1,27 +1,22 @@
 package ma.sir.alc.zynerator.security.service.impl;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Date;
-import java.util.List;
-
-import org.springframework.context.annotation.Lazy;
-
+import ma.sir.alc.zynerator.security.bean.Role;
+import ma.sir.alc.zynerator.security.bean.User;
+import ma.sir.alc.zynerator.security.dao.UserDao;
+import ma.sir.alc.zynerator.security.service.facade.RoleService;
+import ma.sir.alc.zynerator.security.service.facade.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Lazy;
 import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-
-import  ma.sir.alc.zynerator.security.bean.Role;
-import ma.sir.alc.zynerator.security.bean.User;
-import ma.sir.alc.zynerator.security.dao.UserDao;
-
-import ma.sir.alc.zynerator.security.service.facade.RoleService;
-import ma.sir.alc.zynerator.security.service.facade.UserService;
+import java.time.LocalDateTime;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
 
 @Service
 public class UserServiceImpl implements UserService {
@@ -33,7 +28,8 @@ public class UserServiceImpl implements UserService {
     @Autowired
     private RoleService roleService;
 
-    @Autowired @Lazy
+    @Autowired
+    @Lazy
     PasswordEncoder bCryptPasswordEncoder;
 
     @Override
@@ -44,14 +40,14 @@ public class UserServiceImpl implements UserService {
     @Override
     public User findByUsername(String username) {
         if (username == null)
-        return null;
+            return null;
         return userDao.findByUsername(username);
     }
 
     @Override
     public User findByUsernameWithRoles(String username) {
         if (username == null)
-        return null;
+            return null;
         return userDao.findByUsername(username);
     }
 
@@ -64,7 +60,7 @@ public class UserServiceImpl implements UserService {
     @Override
     public User findById(Long id) {
         if (id == null)
-        return null;
+            return null;
         return userDao.getOne(id);
     }
 
@@ -75,36 +71,35 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public User save(User user) {
-    User foundedUserByUsername = findByUsername(user.getUsername());
-    User foundedUserByEmail = userDao.findByEmail(user.getEmail());
-    if (foundedUserByUsername != null || foundedUserByEmail != null) return null;
-    else {
+        User foundedUserByUsername = findByUsername(user.getUsername());
+        User foundedUserByEmail = userDao.findByEmail(user.getEmail());
+        if (foundedUserByUsername != null || foundedUserByEmail != null) return null;
+        else {
     /*if (user.getPassword() == null || user.getPassword().isEmpty()) {
     user.setPassword(bCryptPasswordEncoder.encode(user.getUsername()));
     }
     else {
     user.setPassword(bCryptPasswordEncoder.encode(user.getPassword()));
     }*/
-    user.setPassword(bCryptPasswordEncoder.encode("123"));
-    user.setAccountNonExpired(true);
-    user.setAccountNonLocked(true);
-    user.setCredentialsNonExpired(true);
-    user.setEnabled(true);
-    user.setPasswordChanged(false);
-    user.setCreatedAt(new Date());
+            user.setPassword(bCryptPasswordEncoder.encode("123"));
+            user.setAccountNonExpired(true);
+            user.setAccountNonLocked(true);
+            user.setCredentialsNonExpired(true);
+            user.setEnabled(true);
+            user.setPasswordChanged(false);
+            user.setCreatedAt(LocalDateTime.now());
 
-    if (user.getRoles() != null) {
-    Collection<Role> roles = new ArrayList<Role>();
-            for (Role role : user.getRoles()) {
-            roles.add(roleService.save(role));
-            }
-            user.setRoles(roles);
+            if (user.getRoles() != null) {
+                Collection<Role> roles = new ArrayList<Role>();
+                for (Role role : user.getRoles()) {
+                    roles.add(roleService.save(role));
+                }
+                user.setRoles(roles);
             }
             User mySaved = userDao.save(user);
             return mySaved;
-            }
-            }
-
+        }
+    }
 
 
     @Override
@@ -123,7 +118,7 @@ public class UserServiceImpl implements UserService {
             foundedUser.setAuthorities(new ArrayList<>());
             Collection<Role> roles = new ArrayList<Role>();
             for (Role role : user.getRoles()) {
-            	roles.add(roleService.save(role));
+                roles.add(roleService.save(role));
             }
             foundedUser.setRoles(roles);
             return userDao.save(foundedUser);
