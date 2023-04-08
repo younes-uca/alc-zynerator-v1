@@ -1,5 +1,6 @@
 package  ma.sir.alc.ws.dto;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import ma.sir.alc.zynerator.audit.Log;
 import ma.sir.alc.zynerator.dto.AuditBaseDto;
 import com.fasterxml.jackson.annotation.JsonInclude;

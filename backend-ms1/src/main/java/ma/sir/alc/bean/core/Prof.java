@@ -12,18 +12,19 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import ma.sir.alc.zynerator.audit.AuditBusinessObject;
+import ma.sir.alc.zynerator.security.bean.User;
+
 import javax.persistence.*;
 import java.util.Objects;
 
 
 
-import ma.sir.alc.security.bean.User;
 
 @Entity
 @Table(name = "prof")
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @SequenceGenerator(name="prof_seq",sequenceName="prof_seq",allocationSize=1, initialValue = 1)
-public class Prof    extends AuditBusinessObject   {
+public class Prof    extends User {
 
 
     public Prof(String username) {

@@ -1,33 +1,21 @@
 package ma.sir.alc.zynerator.security.bean;
 
-import ma.sir.alc.zynerator.bean.Etablissement;
-
-import java.util.*;
-
-import javax.persistence.Entity;
-import javax.persistence.FetchType;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.JoinTable;
-import javax.persistence.ManyToMany;
-import javax.persistence.Temporal;
-import javax.persistence.TemporalType;
-import javax.persistence.Transient;
-import javax.persistence.Table;
-
-import org.springframework.security.core.userdetails.UserDetails;
-import javax.persistence.Inheritance;
-import javax.persistence.InheritanceType;
 import com.fasterxml.jackson.annotation.JsonFormat;
+import ma.sir.alc.zynerator.audit.AuditBusinessObject;
+import ma.sir.alc.zynerator.bean.Etablissement;
+import org.springframework.security.core.userdetails.UserDetails;
 
 import javax.persistence.*;
+import java.time.LocalDateTime;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Date;
+import java.util.List;
 
 @Entity
 @Table(name = "user_app")
 @Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
-public class User  implements UserDetails {
+public class User extends AuditBusinessObject implements UserDetails {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     protected Long id;
@@ -35,10 +23,10 @@ public class User  implements UserDetails {
     protected boolean enabled;
     @JsonFormat(pattern = "yyyy-MM-dd hh:mm:ss.SSS")
     @Temporal(TemporalType.TIMESTAMP)
-    protected Date createdAt;
+    protected LocalDateTime createdAt;
     @JsonFormat(pattern = "yyyy-MM-dd hh:mm:ss.SSS")
     @Temporal(TemporalType.TIMESTAMP)
-    protected Date updatedAt;
+    protected LocalDateTime updatedAt;
     protected String email;
     protected boolean accountNonExpired;
     protected boolean accountNonLocked;
@@ -50,7 +38,7 @@ public class User  implements UserDetails {
 
     @ManyToMany(fetch = FetchType.EAGER)
     @JoinTable(name = "users_roles", joinColumns = {@JoinColumn(name = "USER_ID")}, inverseJoinColumns = {
-    @JoinColumn(name = "ROLE_ID")})
+            @JoinColumn(name = "ROLE_ID")})
     protected Collection<Role> roles = new ArrayList<>();
 
     @ManyToOne
@@ -62,12 +50,10 @@ public class User  implements UserDetails {
     protected List<String> rolesByDomain;
     @Transient
     protected List<String> categorieRoles;
-    public static final List<String> CATEGORIE_ROLES = Arrays.asList("SERVICES" ,"TEACHERLOCALITY" ,);
-    public static final List<String> ROLES_BY_DOMAIN = Arrays.asList("ROLE_UPDATE_SERVICES","ROLE_READ_SERVICES", "ROLE_CREATE_SERVICES","ROLE_DELETE_SERVICES"  ,"ROLE_UPDATE_TEACHERLOCALITY","ROLE_READ_TEACHERLOCALITY", "ROLE_CREATE_TEACHERLOCALITY","ROLE_DELETE_TEACHERLOCALITY"  ,);
 
 
     public User() {
-         super();
+        super();
     }
 
     public User(String username) {
@@ -79,7 +65,6 @@ public class User  implements UserDetails {
     }
 
     public List<String> getRolesByDomain() {
-        rolesByDomain = ROLES_BY_DOMAIN;
         return rolesByDomain;
     }
 
@@ -88,7 +73,6 @@ public class User  implements UserDetails {
     }
 
     public List<String> getCategorieRoles() {
-        categorieRoles = CATEGORIE_ROLES;
         return categorieRoles;
     }
 
@@ -97,50 +81,49 @@ public class User  implements UserDetails {
     }
 
 
-
     public boolean getCredentialsNonExpired() {
-    return credentialsNonExpired;
+        return credentialsNonExpired;
     }
 
     public boolean getEnabled() {
-    return enabled;
+        return enabled;
     }
 
     public boolean getAccountNonExpired() {
-    return accountNonExpired;
+        return accountNonExpired;
     }
 
     public boolean getAccountNonLocked() {
-    return accountNonLocked;
+        return accountNonLocked;
     }
 
     public boolean getPasswordChanged() {
-    return passwordChanged;
+        return passwordChanged;
     }
 
 
     public Long getId() {
-    return id;
+        return id;
     }
 
     public void setId(Long id) {
-    this.id = id;
+        this.id = id;
     }
 
     public boolean isCredentialsNonExpired() {
-    return credentialsNonExpired;
+        return credentialsNonExpired;
     }
 
     public void setCredentialsNonExpired(boolean credentialsNonExpired) {
-    this.credentialsNonExpired = credentialsNonExpired;
+        this.credentialsNonExpired = credentialsNonExpired;
     }
 
     public Etablissement getEtablissement() {
-    return etablissement;
+        return etablissement;
     }
 
     public void setEtablissement(Etablissement etablissement) {
-    this.etablissement = etablissement;
+        this.etablissement = etablissement;
     }
 
     public Collection<Role> getRoles() {
@@ -148,106 +131,106 @@ public class User  implements UserDetails {
     }
 
     public void setRoles(Collection<Role> roles) {
-    this.roles = roles;
+        this.roles = roles;
     }
 
     public boolean isEnabled() {
-    return enabled;
+        return enabled;
     }
 
     public void setEnabled(boolean enabled) {
-    this.enabled = enabled;
+        this.enabled = enabled;
     }
 
-    public Date getCreatedAt() {
-    return createdAt;
+    public LocalDateTime getCreatedAt() {
+        return createdAt;
     }
 
-    public void setCreatedAt(Date createdAt) {
-    this.createdAt = createdAt;
+    public void setCreatedAt(LocalDateTime createdAt) {
+        this.createdAt = createdAt;
     }
 
-    public Date getUpdatedAt() {
-    return updatedAt;
+    public LocalDateTime getUpdatedAt() {
+        return updatedAt;
     }
 
-    public void setUpdatedAt(Date updatedAt) {
-    this.updatedAt = updatedAt;
+    public void setUpdatedAt(LocalDateTime updatedAt) {
+        this.updatedAt = updatedAt;
     }
 
     public String getEmail() {
-    return email;
+        return email;
     }
 
     public void setEmail(String email) {
-    this.email = email;
+        this.email = email;
     }
 
     public boolean isAccountNonExpired() {
-    return accountNonExpired;
+        return accountNonExpired;
     }
 
     public void setAccountNonExpired(boolean accountNonExpired) {
-    this.accountNonExpired = accountNonExpired;
+        this.accountNonExpired = accountNonExpired;
     }
 
     public boolean isAccountNonLocked() {
-    return accountNonLocked;
+        return accountNonLocked;
     }
 
     public void setAccountNonLocked(boolean accountNonLocked) {
-    this.accountNonLocked = accountNonLocked;
+        this.accountNonLocked = accountNonLocked;
     }
 
     public String getUsername() {
-    return username;
+        return username;
     }
 
     public void setUsername(String username) {
-    this.username = username;
+        this.username = username;
     }
 
 
     public Collection<Role> getAuthorities() {
-    if (this.authorities == null)
-    this.authorities = this.roles;
-    return authorities;
+        if (this.authorities == null)
+            this.authorities = this.roles;
+        return authorities;
     }
 
     public void setAuthorities(Collection<Role> authorities) {
-    this.authorities = authorities;
+        this.authorities = authorities;
     }
 
     public String getPassword() {
-    return password;
+        return password;
     }
 
     public void setPassword(String password) {
-    this.password = password;
+        this.password = password;
     }
 
     public boolean isPasswordChanged() {
-    return passwordChanged;
+        return passwordChanged;
     }
 
     public void setPasswordChanged(boolean passwordChanged) {
-    this.passwordChanged = passwordChanged;
+        this.passwordChanged = passwordChanged;
     }
 
     public String getPrenom() {
-    return prenom;
+        return prenom;
     }
 
     public void setPrenom(String prenom) {
-    this.prenom = prenom;
+        this.prenom = prenom;
     }
 
     public String getNom() {
-    return nom;
+        return nom;
     }
 
     public void setNom(String nom) {
-    this.nom = nom;
+        this.nom = nom;
     }
 
 }

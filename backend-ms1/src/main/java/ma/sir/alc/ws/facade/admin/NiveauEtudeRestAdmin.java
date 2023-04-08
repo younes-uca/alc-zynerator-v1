@@ -1,4 +1,4 @@
-package  ma.sir.alc.ws.facade.admin;
+package ma.sir.alc.ws.facade.admin;
 
 
 import io.swagger.annotations.Api;
@@ -12,23 +12,19 @@ import ma.sir.alc.ws.converter.NiveauEtudeConverter;
 import ma.sir.alc.ws.dto.NiveauEtudeDto;
 import ma.sir.alc.zynerator.controller.AbstractController;
 import ma.sir.alc.zynerator.dto.AuditEntityDto;
+import ma.sir.alc.zynerator.dto.FileTempDto;
 import ma.sir.alc.zynerator.util.PaginatedList;
 import org.springframework.core.io.InputStreamResource;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 
 import java.util.List;
-import org.springframework.beans.factory.annotation.Autowired;
-import ma.sir.alc.zynerator.process.Result;
-
-import org.springframework.web.multipart.MultipartFile;
-import ma.sir.alc.zynerator.dto.FileTempDto;
 
 @Api("Manages niveauEtude services")
 @RestController
 @RequestMapping("/api/admin/niveauEtude/")
-public class NiveauEtudeRestAdmin  extends AbstractController<NiveauEtude, NiveauEtudeDto, NiveauEtudeHistory, NiveauEtudeCriteria, NiveauEtudeHistoryCriteria, NiveauEtudeAdminService, NiveauEtudeConverter> {
-
+public class NiveauEtudeRestAdmin extends AbstractController<NiveauEtude, NiveauEtudeDto, NiveauEtudeHistory, NiveauEtudeCriteria, NiveauEtudeHistoryCriteria, NiveauEtudeAdminService, NiveauEtudeConverter> {
 
 
     @RequestMapping(value = "upload", method = RequestMethod.POST, consumes = "multipart/form-data")
@@ -46,30 +42,35 @@ public class NiveauEtudeRestAdmin  extends AbstractController<NiveauEtude, Nivea
     public ResponseEntity<List<NiveauEtudeDto>> findAll() throws Exception {
         return super.findAll();
     }
+
     @ApiOperation("Updates the specified  niveauEtude")
     @PutMapping("")
     public ResponseEntity<NiveauEtudeDto> update(@RequestBody NiveauEtudeDto dto) throws Exception {
         return super.update(dto);
     }
+
     @ApiOperation("Finds a niveauEtude by id")
     @GetMapping("id/{id}")
     public ResponseEntity<NiveauEtudeDto> findById(@PathVariable Long id, String[] includes, String[] excludes) throws Exception {
         return super.findById(id, includes, excludes);
     }
+
     @ApiOperation("Saves the specified  niveauEtude")
     @PostMapping("")
     public ResponseEntity<NiveauEtudeDto> save(@RequestBody NiveauEtudeDto dto) throws Exception {
         return super.save(dto);
     }
+
     @ApiOperation("Delete list of niveauEtude")
     @PostMapping("multiple")
     public ResponseEntity<List<NiveauEtudeDto>> delete(@RequestBody List<NiveauEtudeDto> listToDelete) throws Exception {
         return super.delete(listToDelete);
     }
+
     @ApiOperation("Delete the specified niveauEtude")
     @DeleteMapping("")
     public ResponseEntity<NiveauEtudeDto> delete(@RequestBody NiveauEtudeDto dto) throws Exception {
-            return super.delete(dto);
+        return super.delete(dto);
     }
 
     @ApiOperation("Delete the specified niveauEtude")
@@ -77,47 +78,13 @@ public class NiveauEtudeRestAdmin  extends AbstractController<NiveauEtude, Nivea
     public ResponseEntity<Long> deleteById(@PathVariable Long id) throws Exception {
         return super.deleteById(id);
     }
+
     @ApiOperation("Delete multiple niveauEtudes by ids")
     @DeleteMapping("multiple/id")
     public ResponseEntity<List<Long>> deleteByIdIn(@RequestBody List<Long> ids) throws Exception {
-            return super.deleteByIdIn(ids);
-     }
-    @ApiOperation("Updates the specified  niveauEtude")
-    @PutMapping("")
-    public ResponseEntity<NiveauEtudeDto> update(@RequestBody NiveauEtudeDto dto) throws Exception {
-        return super.update(dto);
-    }
-    @ApiOperation("Finds a niveauEtude by id")
-    @GetMapping("id/{id}")
-    public ResponseEntity<NiveauEtudeDto> findById(@PathVariable Long id, String[] includes, String[] excludes) throws Exception {
-        return super.findById(id, includes, excludes);
-    }
-    @ApiOperation("Saves the specified  niveauEtude")
-    @PostMapping("")
-    public ResponseEntity<NiveauEtudeDto> save(@RequestBody NiveauEtudeDto dto) throws Exception {
-        return super.save(dto);
-    }
-    @ApiOperation("Delete list of niveauEtude")
-    @PostMapping("multiple")
-    public ResponseEntity<List<NiveauEtudeDto>> delete(@RequestBody List<NiveauEtudeDto> listToDelete) throws Exception {
-        return super.delete(listToDelete);
-    }
-    @ApiOperation("Delete the specified niveauEtude")
-    @DeleteMapping("")
-    public ResponseEntity<NiveauEtudeDto> delete(@RequestBody NiveauEtudeDto dto) throws Exception {
-            return super.delete(dto);
+        return super.deleteByIdIn(ids);
     }
 
-    @ApiOperation("Delete the specified niveauEtude")
-    @DeleteMapping("id/{id}")
-    public ResponseEntity<Long> deleteById(@PathVariable Long id) throws Exception {
-        return super.deleteById(id);
-    }
-    @ApiOperation("Delete multiple niveauEtudes by ids")
-    @DeleteMapping("multiple/id")
-    public ResponseEntity<List<Long>> deleteByIdIn(@RequestBody List<Long> ids) throws Exception {
-            return super.deleteByIdIn(ids);
-     }
     @ApiOperation("Finds niveauEtudes by criteria")
     @PostMapping("find-by-criteria")
     public ResponseEntity<List<NiveauEtudeDto>> findByCriteria(@RequestBody NiveauEtudeCriteria criteria) throws Exception {
@@ -165,7 +132,8 @@ public class NiveauEtudeRestAdmin  extends AbstractController<NiveauEtude, Nivea
     public ResponseEntity<Integer> getHistoryDataSize(@RequestBody NiveauEtudeHistoryCriteria criteria) throws Exception {
         return super.getHistoryDataSize(criteria);
     }
-    public NiveauEtudeRestAdmin (NiveauEtudeAdminService service, NiveauEtudeConverter converter) {
+
+    public NiveauEtudeRestAdmin(NiveauEtudeAdminService service, NiveauEtudeConverter converter) {
         super(service, converter);
     }
 

@@ -34,10 +34,10 @@ public class AdminConverter extends AbstractConverter<Admin, AdminDto, AdminHist
             item.setAccountNonExpired(dto.getAccountNonExpired());
             item.setAccountNonLocked(dto.getAccountNonLocked());
             item.setPasswordChanged(dto.getPasswordChanged());
-            if(StringUtil.isNotEmpty(dto.getCreatedAt()))
-                item.setCreatedAt(dto.getCreatedAt());
+          /*  if(StringUtil.isNotEmpty(dto.getCreatedAt()))
+                item.setCreatedAt(DateUtil.stringEnToDate(dto.getCreatedAt()));
             if(StringUtil.isNotEmpty(dto.getUpdatedAt()))
-                item.setUpdatedAt(dto.getUpdatedAt());
+                item.setUpdatedAt(dto.getUpdatedAt());*/
             if(StringUtil.isNotEmpty(dto.getUsername()))
                 item.setUsername(dto.getUsername());
             if(StringUtil.isNotEmpty(dto.getPassword()))
@@ -72,10 +72,10 @@ public class AdminConverter extends AbstractConverter<Admin, AdminDto, AdminHist
                 dto.setAccountNonLocked(item.getAccountNonLocked());
             if(StringUtil.isNotEmpty(item.getPasswordChanged()))
                 dto.setPasswordChanged(item.getPasswordChanged());
-            if(StringUtil.isNotEmpty(item.getCreatedAt()))
+            /*if(StringUtil.isNotEmpty(item.getCreatedAt()))
                 dto.setCreatedAt(item.getCreatedAt());
             if(StringUtil.isNotEmpty(item.getUpdatedAt()))
-                dto.setUpdatedAt(item.getUpdatedAt());
+                dto.setUpdatedAt(item.getUpdatedAt());*/
             if(StringUtil.isNotEmpty(item.getUsername()))
                 dto.setUsername(item.getUsername());
             if(StringUtil.isNotEmpty(item.getPassword()))

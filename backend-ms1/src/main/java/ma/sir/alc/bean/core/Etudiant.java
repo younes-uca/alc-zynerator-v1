@@ -10,6 +10,8 @@ import java.util.List;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import ma.sir.alc.zynerator.audit.AuditBusinessObject;
+import ma.sir.alc.zynerator.security.bean.User;
+
 import javax.persistence.*;
 import java.util.Objects;
 
@@ -20,7 +22,7 @@ import java.util.Objects;
 @Table(name = "etudiant")
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @SequenceGenerator(name="etudiant_seq",sequenceName="etudiant_seq",allocationSize=1, initialValue = 1)
-public class Etudiant    extends AuditBusinessObject   {
+public class Etudiant    extends User {
 
     private Long id;
 

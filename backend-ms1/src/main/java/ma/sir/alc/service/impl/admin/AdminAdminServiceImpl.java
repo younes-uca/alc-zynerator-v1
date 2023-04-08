@@ -34,4 +34,8 @@ AdminHistoryDao> implements AdminAdminService {
         super(dao, historyDao);
     }
 
+    @Override
+    public Admin findByUsername(String username) {
+        return dao.findByUsername(username);
+    }
 }
