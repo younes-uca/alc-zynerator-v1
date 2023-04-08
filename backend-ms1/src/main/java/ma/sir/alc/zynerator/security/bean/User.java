@@ -21,11 +21,9 @@ public class User extends AuditBusinessObject implements UserDetails {
     protected Long id;
     protected boolean credentialsNonExpired;
     protected boolean enabled;
-    @JsonFormat(pattern = "yyyy-MM-dd hh:mm:ss.SSS")
-    @Temporal(TemporalType.TIMESTAMP)
+
     protected LocalDateTime createdAt;
-    @JsonFormat(pattern = "yyyy-MM-dd hh:mm:ss.SSS")
-    @Temporal(TemporalType.TIMESTAMP)
+
     protected LocalDateTime updatedAt;
     protected String email;
     protected boolean accountNonExpired;
