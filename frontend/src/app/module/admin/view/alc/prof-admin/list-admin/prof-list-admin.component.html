@@ -1,0 +1,367 @@
+<div class="grid">
+    <div class="col-12">
+        <p-toast></p-toast>
+        <div class="card">
+            <p-toolbar styleClass="mb-4">
+                <ng-template pTemplate="left">
+                                        <button pButton pRipple label=" {{'new' | translate}}" icon="pi pi-plus" class="p-button-success mr-2 mb-2" (click)="openCreate('Prof')"></button>
+                    <button [disabled]="isSelectionDisabled()" pButton pRipple label=" {{'delete' | translate}}" icon="pi pi-trash" class="p-button-danger mr-2 mb-2" (click)=deleteMultiple()></button>
+                    <button pButton pRipple label=" {{'search' | translate}}" icon="pi pi-{{findByCriteriaShow?'angle-down':'angle-right'}}" class="p-button-warning mr-2 mb-2" (click)="this.showSearch()"></button>
+                </ng-template>
+                <ng-template pTemplate="right">
+                    <div class="flex">
+                        <p-splitButton label=" {{'export' | translate}}" icon="pi pi-download" styleClass="p-button-help" [model]="excelPdfButons"></p-splitButton>
+                    </div>
+                </ng-template>
+
+            </p-toolbar>
+            <p-toolbar *ngIf="findByCriteriaShow">
+
+                <div class="align-form-search">
+                        <span class=" p-float-label mr-3 align-search-items mt-4">
+                            <input class="mr-2" pInputText id="1" type="text"  [(ngModel)]="criteria.refLike">
+                            <label for="1">{{'Ref' | translate}}</label>
+                        </span>
+                        <span class=" p-float-label mr-3 align-search-items mt-4">
+                            <input class="mr-2" pInputText id="2" type="text"  [(ngModel)]="criteria.aboutLike">
+                            <label for="2">{{'About' | translate}}</label>
+                        </span>
+                        <span class=" p-float-label mr-3 align-search-items mt-4">
+                            <input class="mr-2" pInputText id="3" type="text"  [(ngModel)]="criteria.emailLike">
+                            <label for="3">{{'Email' | translate}}</label>
+                        </span>
+                        <span class=" p-float-label mr-3 align-search-items mt-4">
+                            <p-dropdown [options]="levelMins" [(ngModel)]="criteria.levelMin" id="4" [filter]="true"
+                                        [showClear]="true"  placeholder="{{'Level min' | translate}}" optionLabel="libelle">
+                            </p-dropdown>
+                        </span>
+                        <span class=" p-float-label mr-3 align-search-items mt-4">
+                            <p-dropdown [options]="levelMaxs" [(ngModel)]="criteria.levelMax" id="5" [filter]="true"
+                                        [showClear]="true"  placeholder="{{'Level max' | translate}}" optionLabel="libelle">
+                            </p-dropdown>
+                        </span>
+                        <span class=" p-float-label mr-3 align-search-items mt-4">
+                            <p-dropdown [options]="categorieProfs" [(ngModel)]="criteria.categorieProf" id="7" [filter]="true"
+                                        [showClear]="true"  placeholder="{{'Categorie prof' | translate}}" optionLabel="code">
+                            </p-dropdown>
+                        </span>
+                        <span class=" p-float-label mr-3 align-search-items mt-4">
+                            <p-dropdown [options]="typeTeachers" [(ngModel)]="criteria.typeTeacher" id="10" [filter]="true"
+                                        [showClear]="true"  placeholder="{{'Type teacher' | translate}}" optionLabel="libelle">
+                            </p-dropdown>
+                        </span>
+                        <span class=" p-float-label mr-3 align-search-items mt-4">
+                            <p-dropdown  id="11" [options]="yesOrNoCredentialsNonExpired" [(ngModel)]="criteria.credentialsNonExpired"
+                                    [filter]="false" [showClear]="true"  placeholder="{{'Credentials non expired' | translate}}" optionLabel="label" optionValue="value">
+                            </p-dropdown>
+                        </span>
+                        <span class=" p-float-label mr-3 align-search-items mt-4">
+                            <p-dropdown  id="12" [options]="yesOrNoEnabled" [(ngModel)]="criteria.enabled"
+                                    [filter]="false" [showClear]="true"  placeholder="{{'Enabled' | translate}}" optionLabel="label" optionValue="value">
+                            </p-dropdown>
+                        </span>
+                        <span class=" p-float-label mr-3 align-search-items mt-4">
+                            <p-dropdown  id="13" [options]="yesOrNoAccountNonExpired" [(ngModel)]="criteria.accountNonExpired"
+                                    [filter]="false" [showClear]="true"  placeholder="{{'Account non expired' | translate}}" optionLabel="label" optionValue="value">
+                            </p-dropdown>
+                        </span>
+                        <span class=" p-float-label mr-3 align-search-items mt-4">
+                            <p-dropdown  id="14" [options]="yesOrNoAccountNonLocked" [(ngModel)]="criteria.accountNonLocked"
+                                    [filter]="false" [showClear]="true"  placeholder="{{'Account non locked' | translate}}" optionLabel="label" optionValue="value">
+                            </p-dropdown>
+                        </span>
+                        <span class=" p-float-label mr-3 align-search-items mt-4">
+                            <p-dropdown  id="15" [options]="yesOrNoPasswordChanged" [(ngModel)]="criteria.passwordChanged"
+                                    [filter]="false" [showClear]="true"  placeholder="{{'Password changed' | translate}}" optionLabel="label" optionValue="value">
+                            </p-dropdown>
+                        </span>
+                        <span class=" p-float-label mr-3 align-search-items mt-4">
+                            <input class="mr-2" pInputText id="18" type="text"  [(ngModel)]="criteria.usernameLike">
+                            <label for="18">{{'Username' | translate}}</label>
+                        </span>
+                        <span class=" p-float-label mr-3 align-search-items mt-4">
+                            <input class="mr-2" pInputText id="19" type="text"  [(ngModel)]="criteria.passwordLike">
+                            <label for="19">{{'Password' | translate}}</label>
+                        </span>
+                        <span class=" p-float-label mr-3 align-search-items mt-4">
+                            <input class="mr-2" pInputText id="20" type="text"  [(ngModel)]="criteria.prenomLike">
+                            <label for="20">{{'Prenom' | translate}}</label>
+                        </span>
+                        <span class=" p-float-label mr-3 align-search-items mt-4">
+                            <input class="mr-2" pInputText id="21" type="text"  [(ngModel)]="criteria.nomLike">
+                            <label for="21">{{'Nom' | translate}}</label>
+                        </span>
+                </div>
+
+                <div class="align-search-button">
+                    <button pButton pRipple label="{{'validate' | translate}}" icon="pi pi-sort-amount-down" class="p-button-info mr-2" (click)="findPaginatedByCriteria()"></button>
+                </div>
+            </p-toolbar>
+
+
+            <p-table #dt [value]="items" [columns]="cols" [rows]="8" [paginator]="false"
+                    [globalFilterFields]="['ref', 'about', 'email', 'levelMinlibelle', 'levelMaxlibelle', 'categorieProfcode', 'typeTeacherlibelle', 'credentialsNonExpired', 'enabled', 'accountNonExpired', 'accountNonLocked', 'passwordChanged', 'createdAt', 'updatedAt', 'username', 'password', 'prenom', 'nom']" [(selection)]="selections"
+                    [rowHover]="true" dataKey="id" styleClass="p-datatable-customers"
+                    currentPageReportTemplate="{{'Les éléments de {first} à {last} sur {totalRecords} ' | translate}}"
+                    [showCurrentPageReport]="true" [rowsPerPageOptions]="[10,25,50]" selectionMode="multiple">
+                <ng-template pTemplate="caption">
+                    <div class="flex flex-column flex-row justify-content-between table-header">
+                        <h5 class="p-m-0">{{'profHeader' | translate}}</h5>
+                        <span class="p-input-icon-left ml-auto">
+                            <i class="pi pi-search"></i>
+                            <input pInputText type="text" placeholder="{{'searchInput' | translate}}" (input)="dt.filterGlobal($event.target.value, 'contains')"/>
+                        </span>
+                    </div>
+                </ng-template>
+                <ng-template pTemplate="header">
+                    <tr>
+                        <th style="width: 3rem">
+                            <p-tableHeaderCheckbox></p-tableHeaderCheckbox>
+                        </th>
+                                
+                        <th pSortableColumn="ref">
+                            <div class="p-d-flex p-jc-between p-ai-center">
+                                <span>{{'Ref' | translate}}</span>
+                                <p-sortIcon field="ref"></p-sortIcon>
+                                <p-columnFilter type="text" field="element.ref" display="menu" class="ml-auto"></p-columnFilter>
+                            </div>
+                        </th>
+                                
+                                
+                        <th pSortableColumn="about">
+                            <div class="p-d-flex p-jc-between p-ai-center">
+                                <span>{{'About' | translate}}</span>
+                                <p-sortIcon field="about"></p-sortIcon>
+                                <p-columnFilter type="text" field="element.about" display="menu" class="ml-auto"></p-columnFilter>
+                            </div>
+                        </th>
+                                
+                                
+                        <th pSortableColumn="email">
+                            <div class="p-d-flex p-jc-between p-ai-center">
+                                <span>{{'Email' | translate}}</span>
+                                <p-sortIcon field="email"></p-sortIcon>
+                                <p-columnFilter type="text" field="element.email" display="menu" class="ml-auto"></p-columnFilter>
+                            </div>
+                        </th>
+                                
+                                
+                        <th pSortableColumn="levelMin">
+                            <div class="p-d-flex p-jc-between p-ai-center">
+                                <span>{{'Level min' | translate}}</span>
+                                <p-sortIcon field="levelMin"></p-sortIcon>
+                            </div>
+                        </th>
+                                
+                                
+                        <th pSortableColumn="levelMax">
+                            <div class="p-d-flex p-jc-between p-ai-center">
+                                <span>{{'Level max' | translate}}</span>
+                                <p-sortIcon field="levelMax"></p-sortIcon>
+                            </div>
+                        </th>
+                                
+                                
+                        <th pSortableColumn="categorieProf">
+                            <div class="p-d-flex p-jc-between p-ai-center">
+                                <span>{{'Categorie prof' | translate}}</span>
+                                <p-sortIcon field="categorieProf"></p-sortIcon>
+                            </div>
+                        </th>
+                                
+                                
+                        <th pSortableColumn="typeTeacher">
+                            <div class="p-d-flex p-jc-between p-ai-center">
+                                <span>{{'Type teacher' | translate}}</span>
+                                <p-sortIcon field="typeTeacher"></p-sortIcon>
+                            </div>
+                        </th>
+                                
+                                
+                        <th pSortableColumn="credentialsNonExpired">
+                            <div class="p-d-flex p-jc-between p-ai-center">
+                                <span>{{'Credentials non expired' | translate}}</span>
+                                <p-sortIcon field="credentialsNonExpired"></p-sortIcon>
+                            </div>
+                        </th>
+                                
+                                
+                        <th pSortableColumn="enabled">
+                            <div class="p-d-flex p-jc-between p-ai-center">
+                                <span>{{'Enabled' | translate}}</span>
+                                <p-sortIcon field="enabled"></p-sortIcon>
+                            </div>
+                        </th>
+                                
+                                <!-- 
+                        <th pSortableColumn="accountNonExpired">
+                            <div class="p-d-flex p-jc-between p-ai-center">
+                                <span>{{'Account non expired' | translate}}</span>
+                                <p-sortIcon field="accountNonExpired"></p-sortIcon>
+                            </div>
+                        </th>
+                                --> 
+                                <!-- 
+                        <th pSortableColumn="accountNonLocked">
+                            <div class="p-d-flex p-jc-between p-ai-center">
+                                <span>{{'Account non locked' | translate}}</span>
+                                <p-sortIcon field="accountNonLocked"></p-sortIcon>
+                            </div>
+                        </th>
+                                --> 
+                                <!-- 
+                        <th pSortableColumn="passwordChanged">
+                            <div class="p-d-flex p-jc-between p-ai-center">
+                                <span>{{'Password changed' | translate}}</span>
+                                <p-sortIcon field="passwordChanged"></p-sortIcon>
+                            </div>
+                        </th>
+                                --> 
+                                <!-- 
+                        <th pSortableColumn="createdAt">
+                            <div class="p-d-flex p-jc-between p-ai-center">
+                                <span>{{'Created at' | translate}}</span>
+                                <p-sortIcon field="createdAt"></p-sortIcon>
+                            </div>
+                        </th>
+                                --> 
+                                <!-- 
+                        <th pSortableColumn="updatedAt">
+                            <div class="p-d-flex p-jc-between p-ai-center">
+                                <span>{{'Updated at' | translate}}</span>
+                                <p-sortIcon field="updatedAt"></p-sortIcon>
+                            </div>
+                        </th>
+                                --> 
+                                <!-- 
+                        <th pSortableColumn="username">
+                            <div class="p-d-flex p-jc-between p-ai-center">
+                                <span>{{'Username' | translate}}</span>
+                                <p-sortIcon field="username"></p-sortIcon>
+                                <p-columnFilter type="text" field="element.username" display="menu" class="ml-auto"></p-columnFilter>
+                            </div>
+                        </th>
+                                --> 
+                                <!-- 
+                        <th pSortableColumn="password">
+                            <div class="p-d-flex p-jc-between p-ai-center">
+                                <span>{{'Password' | translate}}</span>
+                                <p-sortIcon field="password"></p-sortIcon>
+                                <p-columnFilter type="text" field="element.password" display="menu" class="ml-auto"></p-columnFilter>
+                            </div>
+                        </th>
+                                --> 
+                                <!-- 
+                        <th pSortableColumn="prenom">
+                            <div class="p-d-flex p-jc-between p-ai-center">
+                                <span>{{'Prenom' | translate}}</span>
+                                <p-sortIcon field="prenom"></p-sortIcon>
+                                <p-columnFilter type="text" field="element.prenom" display="menu" class="ml-auto"></p-columnFilter>
+                            </div>
+                        </th>
+                                --> 
+                                <!-- 
+                        <th pSortableColumn="nom">
+                            <div class="p-d-flex p-jc-between p-ai-center">
+                                <span>{{'Nom' | translate}}</span>
+                                <p-sortIcon field="nom"></p-sortIcon>
+                                <p-columnFilter type="text" field="element.nom" display="menu" class="ml-auto"></p-columnFilter>
+                            </div>
+                        </th>
+                                --> 
+                        <th>Actions</th>
+                    </tr>
+                </ng-template>
+                <ng-template pTemplate="body" let-element>
+                    <tr>
+                        <td>
+                            <p-tableCheckbox [value]="element"></p-tableCheckbox>
+                        </td>
+                            
+                        <td>{{element.ref}}</td>
+                            
+                            
+                        <td>{{element.about}}</td>
+                            
+                            
+                        <td>{{element.email}}</td>
+                            
+                            
+                        <td>{{element.levelMin?.libelle}}</td>
+                            
+                            
+                        <td>{{element.levelMax?.libelle}}</td>
+                            
+                            
+                        <td>{{element.categorieProf?.code}}</td>
+                            
+                            
+                        <td>{{element.typeTeacher?.libelle}}</td>
+                            
+                            
+                        <td><i *ngIf="element.credentialsNonExpired" class="pi pi-check checked-toogle"></i>
+                            <i *ngIf="!element.credentialsNonExpired" class="pi pi-times unchecked-toogle"></i>
+                        </td>
+                            
+                            
+                        <td><i *ngIf="element.enabled" class="pi pi-check checked-toogle"></i>
+                            <i *ngIf="!element.enabled" class="pi pi-times unchecked-toogle"></i>
+                        </td>
+                            
+                             <!-- 
+                        <td><i *ngIf="element.accountNonExpired" class="pi pi-check checked-toogle"></i>
+                            <i *ngIf="!element.accountNonExpired" class="pi pi-times unchecked-toogle"></i>
+                        </td>
+                             --> 
+                             <!-- 
+                        <td><i *ngIf="element.accountNonLocked" class="pi pi-check checked-toogle"></i>
+                            <i *ngIf="!element.accountNonLocked" class="pi pi-times unchecked-toogle"></i>
+                        </td>
+                             --> 
+                             <!-- 
+                        <td><i *ngIf="element.passwordChanged" class="pi pi-check checked-toogle"></i>
+                            <i *ngIf="!element.passwordChanged" class="pi pi-times unchecked-toogle"></i>
+                        </td>
+                             --> 
+                             <!-- 
+                        <td>{{element.createdAt}}</td>
+                             --> 
+                             <!-- 
+                        <td>{{element.updatedAt}}</td>
+                             --> 
+                             <!-- 
+                        <td>{{element.username}}</td>
+                             --> 
+                             <!-- 
+                        <td>{{element.password}}</td>
+                             --> 
+                             <!-- 
+                        <td>{{element.prenom}}</td>
+                             --> 
+                             <!-- 
+                        <td>{{element.nom}}</td>
+                             --> 
+                        <td>
+                            <button pButton pRipple icon="pi pi-pencil"  class="p-button-rounded p-button-success mr-2" (click)="edit(element)"></button>
+                            <button pButton pRipple icon="pi pi-list" class="p-button-rounded p-button-info mr-2" (click)="view(element)"></button>
+                            <button pButton pRipple icon="pi pi-trash" class="p-button-rounded p-button-danger mr-2" (click)="delete(element)"></button>
+                            <button pButton pRipple icon="pi pi-copy" class="p-button-rounded p-button-raised p-button-warning" (click)="duplicate(element)"></button>
+                        </td>
+                    </tr>
+                </ng-template>
+
+                <ng-template pTemplate="summary">
+                    <p-paginator  [rows]="10" [totalRecords]="totalRecords" (onPageChange)="onPage($event)"></p-paginator>
+                    <div class="p-d-flex p-ai-center p-jc-between">
+                        En totale il {{items ? totalRecords == 1 ? 'y a' : 'y a' : 'y a' }} {{items ? totalRecords : 0 }} {{items ? totalRecords == 1 ? 'prof' : 'profs' : 0 }}.
+                    </div>
+                </ng-template>
+            </p-table>
+        </div>
+
+        <app-prof-create-admin></app-prof-create-admin>
+        <app-prof-edit-admin></app-prof-edit-admin>
+        <app-prof-view-admin></app-prof-view-admin>
+        <p-confirmDialog [style]="{width: '450px'}"></p-confirmDialog>
+    </div>
+</div>

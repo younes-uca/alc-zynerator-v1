@@ -1,0 +1,2218 @@
+{
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'inviteStudentHeader': 'Liste des invite students',
+    'searchInput': 'Chercher...',
+    'inviteStudentTabPan': 'Invite student',
+
+
+        'Id': 'Id',
+            'inviteStudentCode': 'Code',
+
+        'Code': 'Code',
+            'inviteStudentEtudiant': 'Etudiant',
+
+        'Etudiant': 'Etudiant',
+            'inviteStudentIsAccepted': 'Is accepted',
+
+        'Is accepted': 'Is accepted',
+            'inviteStudentIsPaidPack': 'Is paid pack',
+
+        'Is paid pack': 'Is paid pack',
+            'inviteStudentEmailInvited': 'Email invited',
+
+        'Email invited': 'Email invited',
+            'inviteStudentDateSentInvitation': 'Date sent invitation',
+
+        'Date sent invitation': 'Date sent invitation',
+            'inviteStudentDateAcceptInvitation': 'Date accept invitation',
+
+        'Date accept invitation': 'Date accept invitation',
+            'inviteStudentDatePayPack': 'Date pay pack',
+
+        'Date pay pack': 'Date pay pack',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'newsHeader': 'Liste des news',
+    'searchInput': 'Chercher...',
+    'newsTabPan': 'News',
+
+
+        'Id': 'Id',
+            'newsRef': 'Ref',
+
+        'Ref': 'Ref',
+            'newsLibelle': 'Libelle',
+
+        'Libelle': 'Libelle',
+            'newsImage': 'Image',
+
+        'Image': 'Image',
+            'newsDescription': 'Description',
+
+        'Description': 'Description',
+            'newsDateNews': 'Date news',
+
+        'Date news': 'Date news',
+            'newsDateDebut': 'Date debut',
+
+        'Date debut': 'Date debut',
+            'newsDateFin': 'Date fin',
+
+        'Date fin': 'Date fin',
+            'newsNumeroOrdre': 'Numero ordre',
+
+        'Numero ordre': 'Numero ordre',
+            'newsDestinataire': 'Destinataire',
+
+        'Destinataire': 'Destinataire',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'workloadBonusProfHeader': 'Liste des workload bonus profs',
+    'searchInput': 'Chercher...',
+    'workloadBonusProfTabPan': 'Workload bonus prof',
+
+
+        'Id': 'Id',
+            'workloadBonusProfCode': 'Code',
+
+        'Code': 'Code',
+            'workloadBonusProfNombreSession': 'Nombre session',
+
+        'Nombre session': 'Nombre session',
+            'workloadBonusProfPrix': 'Prix',
+
+        'Prix': 'Prix',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'reponseEtudiantHomeWorkHeader': 'Liste des reponse etudiant home works',
+    'searchInput': 'Chercher...',
+    'reponseEtudiantHomeWorkTabPan': 'Reponse etudiant home work',
+
+
+        'Id': 'Id',
+            'reponseEtudiantHomeWorkHoweWorkQSTReponse': 'Howe work q s t reponse',
+
+        'Howe work q s t reponse': 'Howe work q s t reponse',
+            'reponseEtudiantHomeWorkAnswer': 'Answer',
+
+        'Answer': 'Answer',
+            'reponseEtudiantHomeWorkHomeWorkEtudiant': 'Home work etudiant',
+
+        'Home work etudiant': 'Home work etudiant',
+            'reponseEtudiantHomeWorkHomeWorkQuestion': 'Home work question',
+
+        'Home work question': 'Home work question',
+            'reponseEtudiantHomeWorkProfNote': 'Prof note',
+
+        'Prof note': 'Prof note',
+            'reponseEtudiantHomeWorkNote': 'Note',
+
+        'Note': 'Note',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'homeWorkHeader': 'Liste des home works',
+    'searchInput': 'Chercher...',
+    'homeWorkTabPan': 'Home work',
+
+
+        'Id': 'Id',
+            'homeWorkLibelle': 'Libelle',
+
+        'Libelle': 'Libelle',
+            'homeWorkUrlImage': 'Url image',
+
+        'Url image': 'Url image',
+            'homeWorkUrlVideo': 'Url video',
+
+        'Url video': 'Url video',
+            'homeWorkHomeWorkQuestions': 'Home work questions',
+
+        'Home work questions': 'Home work questions',
+            'homeWorkHomeWorkEtudiants': 'Home work etudiants',
+
+        'Home work etudiants': 'Home work etudiants',
+            'homeWorkCours': 'Cours',
+
+        'Cours': 'Cours',
+            'homeWorkTypeHomeWork': 'Type home work',
+
+        'Type home work': 'Type home work',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'homeWorkEtudiantHeader': 'Liste des home work etudiants',
+    'searchInput': 'Chercher...',
+    'homeWorkEtudiantTabPan': 'Home work etudiant',
+
+
+        'Id': 'Id',
+            'homeWorkEtudiantEtudiant': 'Etudiant',
+
+        'Etudiant': 'Etudiant',
+            'homeWorkEtudiantHomeWork': 'Home work',
+
+        'Home work': 'Home work',
+            'homeWorkEtudiantReponseEtudiantHomeWorks': 'Reponse etudiant home works',
+
+        'Reponse etudiant home works': 'Reponse etudiant home works',
+            'homeWorkEtudiantNote': 'Note',
+
+        'Note': 'Note',
+            'homeWorkEtudiantResultatHomeWork': 'Resultat home work',
+
+        'Resultat home work': 'Resultat home work',
+            'homeWorkEtudiantDateHomeWork': 'Date home work',
+
+        'Date home work': 'Date home work',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'groupeEtudiantHeader': 'Liste des groupe etudiants',
+    'searchInput': 'Chercher...',
+    'groupeEtudiantTabPan': 'Groupe etudiant',
+
+
+        'Id': 'Id',
+            'groupeEtudiantLibelle': 'Libelle',
+
+        'Libelle': 'Libelle',
+            'groupeEtudiantNiveau': 'Niveau',
+
+        'Niveau': 'Niveau',
+            'groupeEtudiantDateDebut': 'Date debut',
+
+        'Date debut': 'Date debut',
+            'groupeEtudiantDateFin': 'Date fin',
+
+        'Date fin': 'Date fin',
+            'groupeEtudiantNombrePlace': 'Nombre place',
+
+        'Nombre place': 'Nombre place',
+            'groupeEtudiantNombrePlacevide': 'Nombre placevide',
+
+        'Nombre placevide': 'Nombre placevide',
+            'groupeEtudiantNombrePlaceNonVide': 'Nombre place non vide',
+
+        'Nombre place non vide': 'Nombre place non vide',
+            'groupeEtudiantGroupeEtudiantDetails': 'Groupe etudiant details',
+
+        'Groupe etudiant details': 'Groupe etudiant details',
+            'groupeEtudiantGroupeEtude': 'Groupe etude',
+
+        'Groupe etude': 'Groupe etude',
+            'groupeEtudiantParcours': 'Parcours',
+
+        'Parcours': 'Parcours',
+            'groupeEtudiantProf': 'Prof',
+
+        'Prof': 'Prof',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'classAverageBonusHeader': 'Liste des class average bonus',
+    'searchInput': 'Chercher...',
+    'classAverageBonusTabPan': 'Class average bonus',
+
+
+        'Id': 'Id',
+            'classAverageBonusCode': 'Code',
+
+        'Code': 'Code',
+            'classAverageBonusNombreSession': 'Nombre session',
+
+        'Nombre session': 'Nombre session',
+            'classAverageBonusPrix': 'Prix',
+
+        'Prix': 'Prix',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'servicesHeader': 'Liste des services',
+    'searchInput': 'Chercher...',
+    'servicesTabPan': 'Services',
+
+
+        'Id': 'Id',
+            'servicesCode': 'Code',
+
+        'Code': 'Code',
+            'servicesLibelle': 'Libelle',
+
+        'Libelle': 'Libelle',
+            'servicesDescription': 'Description',
+
+        'Description': 'Description',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'categorieProfHeader': 'Liste des categorie profs',
+    'searchInput': 'Chercher...',
+    'categorieProfTabPan': 'Categorie prof',
+
+
+        'Id': 'Id',
+            'categorieProfCode': 'Code',
+
+        'Code': 'Code',
+            'categorieProfLevel': 'Level',
+
+        'Level': 'Level',
+            'categorieProfLessonRate': 'Lesson rate',
+
+        'Lesson rate': 'Lesson rate',
+            'categorieProfProfs': 'Profs',
+
+        'Profs': 'Profs',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'classRoomHeader': 'Liste des class rooms',
+    'searchInput': 'Chercher...',
+    'classRoomTabPan': 'Class room',
+
+
+        'Id': 'Id',
+            'classRoomLibelle': 'Libelle',
+
+        'Libelle': 'Libelle',
+            'classRoomDescription': 'Description',
+
+        'Description': 'Description',
+            'classRoomProf': 'Prof',
+
+        'Prof': 'Prof',
+            'classRoomEtudiantClassRooms': 'Etudiant class rooms',
+
+        'Etudiant class rooms': 'Etudiant class rooms',
+            'classRoomQuizClassRooms': 'Quiz class rooms',
+
+        'Quiz class rooms': 'Quiz class rooms',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'parcoursHeader': 'Liste des parcours',
+    'searchInput': 'Chercher...',
+    'parcoursTabPan': 'Parcours',
+
+
+        'Id': 'Id',
+            'parcoursDatePublication': 'Date publication',
+
+        'Date publication': 'Date publication',
+            'parcoursDateCreation': 'Date creation',
+
+        'Date creation': 'Date creation',
+            'parcoursDescription': 'Description',
+
+        'Description': 'Description',
+            'parcoursCode': 'Code',
+
+        'Code': 'Code',
+            'parcoursLibelle': 'Libelle',
+
+        'Libelle': 'Libelle',
+            'parcoursNumeroOrder': 'Numero order',
+
+        'Numero order': 'Numero order',
+            'parcoursNombreCours': 'Nombre cours',
+
+        'Nombre cours': 'Nombre cours',
+            'parcoursCentre': 'Centre',
+
+        'Centre': 'Centre',
+            'parcoursCourss': 'Courss',
+
+        'Courss': 'Courss',
+            'parcoursEtudiants': 'Etudiants',
+
+        'Etudiants': 'Etudiants',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'niveauEtudeHeader': 'Liste des niveau etudes',
+    'searchInput': 'Chercher...',
+    'niveauEtudeTabPan': 'Niveau etude',
+
+
+        'Id': 'Id',
+            'niveauEtudeCode': 'Code',
+
+        'Code': 'Code',
+            'niveauEtudeLibelle': 'Libelle',
+
+        'Libelle': 'Libelle',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'sessionCoursHeader': 'Liste des session cours',
+    'searchInput': 'Chercher...',
+    'sessionCoursTabPan': 'Session cours',
+
+
+        'Id': 'Id',
+            'sessionCoursReference': 'Reference',
+
+        'Reference': 'Reference',
+            'sessionCoursProf': 'Prof',
+
+        'Prof': 'Prof',
+            'sessionCoursCours': 'Cours',
+
+        'Cours': 'Cours',
+            'sessionCoursGroupeEtudiant': 'Groupe etudiant',
+
+        'Groupe etudiant': 'Groupe etudiant',
+            'sessionCoursDuree': 'Duree',
+
+        'Duree': 'Duree',
+            'sessionCoursTotalheure': 'Totalheure',
+
+        'Totalheure': 'Totalheure',
+            'sessionCoursMois': 'Mois',
+
+        'Mois': 'Mois',
+            'sessionCoursAnnee': 'Annee',
+
+        'Annee': 'Annee',
+            'sessionCoursDateFin': 'Date fin',
+
+        'Date fin': 'Date fin',
+            'sessionCoursDateDebut': 'Date debut',
+
+        'Date debut': 'Date debut',
+            'sessionCoursPayer': 'Payer',
+
+        'Payer': 'Payer',
+            'sessionCoursSalary': 'Salary',
+
+        'Salary': 'Salary',
+            'sessionCoursSections': 'Sections',
+
+        'Sections': 'Sections',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'inscriptionHeader': 'Liste des inscriptions',
+    'searchInput': 'Chercher...',
+    'inscriptionTabPan': 'Inscription',
+
+
+        'Id': 'Id',
+            'inscriptionNumeroInscription': 'Numero inscription',
+
+        'Numero inscription': 'Numero inscription',
+            'inscriptionEtudiant': 'Etudiant',
+
+        'Etudiant': 'Etudiant',
+            'inscriptionEtatInscription': 'Etat inscription',
+
+        'Etat inscription': 'Etat inscription',
+            'inscriptionParcours': 'Parcours',
+
+        'Parcours': 'Parcours',
+            'inscriptionGroupeEtude': 'Groupe etude',
+
+        'Groupe etude': 'Groupe etude',
+            'inscriptionStatutSocial': 'Statut social',
+
+        'Statut social': 'Statut social',
+            'inscriptionInteretEtudiant': 'Interet etudiant',
+
+        'Interet etudiant': 'Interet etudiant',
+            'inscriptionNiveauEtude': 'Niveau etude',
+
+        'Niveau etude': 'Niveau etude',
+            'inscriptionFonction': 'Fonction',
+
+        'Fonction': 'Fonction',
+            'inscriptionQuizNiveau': 'Quiz niveau',
+
+        'Quiz niveau': 'Quiz niveau',
+            'inscriptionNoteQuizNiveau': 'Note quiz niveau',
+
+        'Note quiz niveau': 'Note quiz niveau',
+            'inscriptionQuizFinished': 'Quiz finished',
+
+        'Quiz finished': 'Quiz finished',
+            'inscriptionDateRegistration': 'Date registration',
+
+        'Date registration': 'Date registration',
+            'inscriptionDatedebutinscription': 'Datedebutinscription',
+
+        'Datedebutinscription': 'Datedebutinscription',
+            'inscriptionDatefininscription': 'Datefininscription',
+
+        'Datefininscription': 'Datefininscription',
+            'inscriptionPackStudent': 'Pack student',
+
+        'Pack student': 'Pack student',
+            'inscriptionSkill': 'Skill',
+
+        'Skill': 'Skill',
+            'inscriptionSkype': 'Skype',
+
+        'Skype': 'Skype',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'etatInscriptionHeader': 'Liste des etat inscriptions',
+    'searchInput': 'Chercher...',
+    'etatInscriptionTabPan': 'Etat inscription',
+
+
+        'Id': 'Id',
+            'etatInscriptionRef': 'Ref',
+
+        'Ref': 'Ref',
+            'etatInscriptionLibelle': 'Libelle',
+
+        'Libelle': 'Libelle',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'classAverageBonusProfHeader': 'Liste des class average bonus profs',
+    'searchInput': 'Chercher...',
+    'classAverageBonusProfTabPan': 'Class average bonus prof',
+
+
+        'Id': 'Id',
+            'classAverageBonusProfProf': 'Prof',
+
+        'Prof': 'Prof',
+            'classAverageBonusProfMois': 'Mois',
+
+        'Mois': 'Mois',
+            'classAverageBonusProfAnnee': 'Annee',
+
+        'Annee': 'Annee',
+            'classAverageBonusProfSalary': 'Salary',
+
+        'Salary': 'Salary',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'etudiantHeader': 'Liste des etudiants',
+    'searchInput': 'Chercher...',
+    'etudiantTabPan': 'Etudiant',
+
+
+        'Id': 'Id',
+            'etudiantRef': 'Ref',
+
+        'Ref': 'Ref',
+            'etudiantTeacherLocality': 'Teacher locality',
+
+        'Teacher locality': 'Teacher locality',
+            'etudiantGroupOption': 'Group option',
+
+        'Group option': 'Group option',
+            'etudiantEmail': 'Email',
+
+        'Email': 'Email',
+            'etudiantEtatEtudiantSchedule': 'Etat etudiant schedule',
+
+        'Etat etudiant schedule': 'Etat etudiant schedule',
+            'etudiantParcours': 'Parcours',
+
+        'Parcours': 'Parcours',
+            'etudiantQuizEtudiants': 'Quiz etudiants',
+
+        'Quiz etudiants': 'Quiz etudiants',
+            'etudiantGroupeEtude': 'Groupe etude',
+
+        'Groupe etude': 'Groupe etude',
+            'etudiantGroupeEtudiantDetails': 'Groupe etudiant details',
+
+        'Groupe etudiant details': 'Groupe etudiant details',
+            'etudiantPackStudent': 'Pack student',
+
+        'Pack student': 'Pack student',
+            'etudiantStatutSocial': 'Statut social',
+
+        'Statut social': 'Statut social',
+            'etudiantInteretEtudiant': 'Interet etudiant',
+
+        'Interet etudiant': 'Interet etudiant',
+            'etudiantNiveauEtude': 'Niveau etude',
+
+        'Niveau etude': 'Niveau etude',
+            'etudiantSkill': 'Skill',
+
+        'Skill': 'Skill',
+            'etudiantFonction': 'Fonction',
+
+        'Fonction': 'Fonction',
+            'etudiantLangue': 'Langue',
+
+        'Langue': 'Langue',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'freeTrialConfigurationHeader': 'Liste des free trial configurations',
+    'searchInput': 'Chercher...',
+    'freeTrialConfigurationTabPan': 'Free trial configuration',
+
+
+        'Id': 'Id',
+            'freeTrialConfigurationDateApplicationDebut': 'Date application debut',
+
+        'Date application debut': 'Date application debut',
+            'freeTrialConfigurationDateApplicationFin': 'Date application fin',
+
+        'Date application fin': 'Date application fin',
+            'freeTrialConfigurationNombreStudentMax': 'Nombre student max',
+
+        'Nombre student max': 'Nombre student max',
+            'freeTrialConfigurationNombreStudentMin': 'Nombre student min',
+
+        'Nombre student min': 'Nombre student min',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'typeReclamationProfHeader': 'Liste des type reclamation profs',
+    'searchInput': 'Chercher...',
+    'typeReclamationProfTabPan': 'Type reclamation prof',
+
+
+        'Id': 'Id',
+            'typeReclamationProfCode': 'Code',
+
+        'Code': 'Code',
+            'typeReclamationProfLibelle': 'Libelle',
+
+        'Libelle': 'Libelle',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'faqTypeHeader': 'Liste des faq types',
+    'searchInput': 'Chercher...',
+    'faqTypeTabPan': 'Faq type',
+
+
+        'Id': 'Id',
+            'faqTypeDestinataire': 'Destinataire',
+
+        'Destinataire': 'Destinataire',
+            'faqTypeLibelle': 'Libelle',
+
+        'Libelle': 'Libelle',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'calendrierProfHeader': 'Liste des calendrier profs',
+    'searchInput': 'Chercher...',
+    'calendrierProfTabPan': 'Calendrier prof',
+
+
+        'Id': 'Id',
+            'calendrierProfRef': 'Ref',
+
+        'Ref': 'Ref',
+            'calendrierProfStartTime': 'Start time',
+
+        'Start time': 'Start time',
+            'calendrierProfEndTime': 'End time',
+
+        'End time': 'End time',
+            'calendrierProfStartRecur': 'Start recur',
+
+        'Start recur': 'Start recur',
+            'calendrierProfEndRecur': 'End recur',
+
+        'End recur': 'End recur',
+            'calendrierProfProf': 'Prof',
+
+        'Prof': 'Prof',
+            'calendrierProfEtudiant': 'Etudiant',
+
+        'Etudiant': 'Etudiant',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'adminHeader': 'Liste des admins',
+    'searchInput': 'Chercher...',
+    'adminTabPan': 'Admin',
+
+
+        'Id': 'Id',
+            'adminDescription': 'Description',
+
+        'Description': 'Description',
+            'adminCredentialsNonExpired': 'Credentials non expired',
+
+        'Credentials non expired': 'Credentials non expired',
+            'adminEnabled': 'Enabled',
+
+        'Enabled': 'Enabled',
+            'adminAccountNonExpired': 'Account non expired',
+
+        'Account non expired': 'Account non expired',
+            'adminAccountNonLocked': 'Account non locked',
+
+        'Account non locked': 'Account non locked',
+            'adminPasswordChanged': 'Password changed',
+
+        'Password changed': 'Password changed',
+            'adminCreatedAt': 'Created at',
+
+        'Created at': 'Created at',
+            'adminUpdatedAt': 'Updated at',
+
+        'Updated at': 'Updated at',
+            'adminUsername': 'Username',
+
+        'Username': 'Username',
+            'adminPassword': 'Password',
+
+        'Password': 'Password',
+            'adminPrenom': 'Prenom',
+
+        'Prenom': 'Prenom',
+            'adminNom': 'Nom',
+
+        'Nom': 'Nom',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'typeReclamationEtudiantHeader': 'Liste des type reclamation etudiants',
+    'searchInput': 'Chercher...',
+    'typeReclamationEtudiantTabPan': 'Type reclamation etudiant',
+
+
+        'Id': 'Id',
+            'typeReclamationEtudiantCode': 'Code',
+
+        'Code': 'Code',
+            'typeReclamationEtudiantLibelle': 'Libelle',
+
+        'Libelle': 'Libelle',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'quizClassRoomHeader': 'Liste des quiz class rooms',
+    'searchInput': 'Chercher...',
+    'quizClassRoomTabPan': 'Quiz class room',
+
+
+        'Id': 'Id',
+            'quizClassRoomClassRoom': 'Class room',
+
+        'Class room': 'Class room',
+            'quizClassRoomQuiz': 'Quiz',
+
+        'Quiz': 'Quiz',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'niveauEtudeHeader': 'Liste des niveau etudes',
+    'searchInput': 'Chercher...',
+    'niveauEtudeTabPan': 'Niveau etude',
+
+
+        'Id': 'Id',
+            'niveauEtudeLibelle': 'Libelle',
+
+        'Libelle': 'Libelle',
+            'niveauEtudeCode': 'Code',
+
+        'Code': 'Code',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'statutSocialHeader': 'Liste des statut socials',
+    'searchInput': 'Chercher...',
+    'statutSocialTabPan': 'Statut social',
+
+
+        'Id': 'Id',
+            'statutSocialCode': 'Code',
+
+        'Code': 'Code',
+            'statutSocialLibelle': 'Libelle',
+
+        'Libelle': 'Libelle',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'quizHeader': 'Liste des quizs',
+    'searchInput': 'Chercher...',
+    'quizTabPan': 'Quiz',
+
+
+        'Id': 'Id',
+            'quizRef': 'Ref',
+
+        'Ref': 'Ref',
+            'quizLib': 'Lib',
+
+        'Lib': 'Lib',
+            'quizDateDebut': 'Date debut',
+
+        'Date debut': 'Date debut',
+            'quizDateFin': 'Date fin',
+
+        'Date fin': 'Date fin',
+            'quizQuestions': 'Questions',
+
+        'Questions': 'Questions',
+            'quizQuizEtudiants': 'Quiz etudiants',
+
+        'Quiz etudiants': 'Quiz etudiants',
+            'quizSection': 'Section',
+
+        'Section': 'Section',
+            'quizNumero': 'Numero',
+
+        'Numero': 'Numero',
+            'quizSeuilReussite': 'Seuil reussite',
+
+        'Seuil reussite': 'Seuil reussite',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'groupeEtudeHeader': 'Liste des groupe etudes',
+    'searchInput': 'Chercher...',
+    'groupeEtudeTabPan': 'Groupe etude',
+
+
+        'Id': 'Id',
+            'groupeEtudeLibelle': 'Libelle',
+
+        'Libelle': 'Libelle',
+            'groupeEtudeDescription': 'Description',
+
+        'Description': 'Description',
+            'groupeEtudeNombreEtudiant': 'Nombre etudiant',
+
+        'Nombre etudiant': 'Nombre etudiant',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'typeHomeWorkHeader': 'Liste des type home works',
+    'searchInput': 'Chercher...',
+    'typeHomeWorkTabPan': 'Type home work',
+
+
+        'Id': 'Id',
+            'typeHomeWorkCode': 'Code',
+
+        'Code': 'Code',
+            'typeHomeWorkLib': 'Lib',
+
+        'Lib': 'Lib',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'coursHeader': 'Liste des cours',
+    'searchInput': 'Chercher...',
+    'coursTabPan': 'Cours',
+
+
+        'Id': 'Id',
+            'coursCode': 'Code',
+
+        'Code': 'Code',
+            'coursLibelle': 'Libelle',
+
+        'Libelle': 'Libelle',
+            'coursDescription': 'Description',
+
+        'Description': 'Description',
+            'coursImage': 'Image',
+
+        'Image': 'Image',
+            'coursEtatCours': 'Etat cours',
+
+        'Etat cours': 'Etat cours',
+            'coursParcours': 'Parcours',
+
+        'Parcours': 'Parcours',
+            'coursNombreSectionFinalise': 'Nombre section finalise',
+
+        'Nombre section finalise': 'Nombre section finalise',
+            'coursNombreSectionEnCours': 'Nombre section en cours',
+
+        'Nombre section en cours': 'Nombre section en cours',
+            'coursNombreLinkEnCours': 'Nombre link en cours',
+
+        'Nombre link en cours': 'Nombre link en cours',
+            'coursNombreLinkFinalise': 'Nombre link finalise',
+
+        'Nombre link finalise': 'Nombre link finalise',
+            'coursNumeroOrder': 'Numero order',
+
+        'Numero order': 'Numero order',
+            'coursSections': 'Sections',
+
+        'Sections': 'Sections',
+            'coursHomeWorks': 'Home works',
+
+        'Home works': 'Home works',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'freeTrialTeacherWhatsTemplateHeader': 'Liste des free trial teacher whats templates',
+    'searchInput': 'Chercher...',
+    'freeTrialTeacherWhatsTemplateTabPan': 'Free trial teacher whats template',
+
+
+        'Id': 'Id',
+            'freeTrialTeacherWhatsTemplateObject': 'Object',
+
+        'Object': 'Object',
+            'freeTrialTeacherWhatsTemplateCorps': 'Corps',
+
+        'Corps': 'Corps',
+            'freeTrialTeacherWhatsTemplateSource': 'Source',
+
+        'Source': 'Source',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'sectionItemHeader': 'Liste des section items',
+    'searchInput': 'Chercher...',
+    'sectionItemTabPan': 'Section item',
+
+
+        'Id': 'Id',
+            'sectionItemImageUrl': 'Image url',
+
+        'Image url': 'Image url',
+            'sectionItemResponse': 'Response',
+
+        'Response': 'Response',
+            'sectionItemTranscription': 'Transcription',
+
+        'Transcription': 'Transcription',
+            'sectionItemTranslation': 'Translation',
+
+        'Translation': 'Translation',
+            'sectionItemExplanation': 'Explanation',
+
+        'Explanation': 'Explanation',
+            'sectionItemExample': 'Example',
+
+        'Example': 'Example',
+            'sectionItemSynonyms': 'Synonyms',
+
+        'Synonyms': 'Synonyms',
+            'sectionItemSection': 'Section',
+
+        'Section': 'Section',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'freeTrialHeader': 'Liste des free trials',
+    'searchInput': 'Chercher...',
+    'freeTrialTabPan': 'Free trial',
+
+
+        'Id': 'Id',
+            'freeTrialReference': 'Reference',
+
+        'Reference': 'Reference',
+            'freeTrialProf': 'Prof',
+
+        'Prof': 'Prof',
+            'freeTrialNiveauEtude': 'Niveau etude',
+
+        'Niveau etude': 'Niveau etude',
+            'freeTrialDateFreeTrial': 'Date free trial',
+
+        'Date free trial': 'Date free trial',
+            'freeTrialLink': 'Link',
+
+        'Link': 'Link',
+            'freeTrialEmailTeacherSent': 'Email teacher sent',
+
+        'Email teacher sent': 'Email teacher sent',
+            'freeTrialEmailTeacherSendingDate': 'Email teacher sending date',
+
+        'Email teacher sending date': 'Email teacher sending date',
+            'freeTrialWhatsTeacherSent': 'Whats teacher sent',
+
+        'Whats teacher sent': 'Whats teacher sent',
+            'freeTrialWhatsTeacherSendingDate': 'Whats teacher sending date',
+
+        'Whats teacher sending date': 'Whats teacher sending date',
+            'freeTrialFreeTrialStudentWhatsTemplate': 'Free trial student whats template',
+
+        'Free trial student whats template': 'Free trial student whats template',
+            'freeTrialFreeTrialStudentEmailTemplate': 'Free trial student email template',
+
+        'Free trial student email template': 'Free trial student email template',
+            'freeTrialFreeTrialTeacherEmailTemplate': 'Free trial teacher email template',
+
+        'Free trial teacher email template': 'Free trial teacher email template',
+            'freeTrialFreeTrialTeacherWhatsTemplate': 'Free trial teacher whats template',
+
+        'Free trial teacher whats template': 'Free trial teacher whats template',
+            'freeTrialDateFreeTrialPremierRappel': 'Date free trial premier rappel',
+
+        'Date free trial premier rappel': 'Date free trial premier rappel',
+            'freeTrialDateFreeTrialPremierDeuxiemeRappel': 'Date free trial premier deuxieme rappel',
+
+        'Date free trial premier deuxieme rappel': 'Date free trial premier deuxieme rappel',
+            'freeTrialNombreStudentTotal': 'Nombre student total',
+
+        'Nombre student total': 'Nombre student total',
+            'freeTrialFreeTrialConfiguration': 'Free trial configuration',
+
+        'Free trial configuration': 'Free trial configuration',
+            'freeTrialNombreStudentAbonne': 'Nombre student abonne',
+
+        'Nombre student abonne': 'Nombre student abonne',
+            'freeTrialNombreStudentPresent': 'Nombre student present',
+
+        'Nombre student present': 'Nombre student present',
+            'freeTrialStatutFreeTrial': 'Statut free trial',
+
+        'Statut free trial': 'Statut free trial',
+            'freeTrialFreeTrialDetails': 'Free trial details',
+
+        'Free trial details': 'Free trial details',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'sectionHeader': 'Liste des sections',
+    'searchInput': 'Chercher...',
+    'sectionTabPan': 'Section',
+
+
+        'Id': 'Id',
+            'sectionCode': 'Code',
+
+        'Code': 'Code',
+            'sectionLibelle': 'Libelle',
+
+        'Libelle': 'Libelle',
+            'sectionUrlImage': 'Url image',
+
+        'Url image': 'Url image',
+            'sectionUrlImage2': 'Url image2',
+
+        'Url image2': 'Url image2',
+            'sectionUrlImage3': 'Url image3',
+
+        'Url image3': 'Url image3',
+            'sectionUrlVideo': 'Url video',
+
+        'Url video': 'Url video',
+            'sectionContenu': 'Contenu',
+
+        'Contenu': 'Contenu',
+            'sectionQuestions': 'Questions',
+
+        'Questions': 'Questions',
+            'sectionIndicationProf': 'Indication prof',
+
+        'Indication prof': 'Indication prof',
+            'sectionNumeroOrder': 'Numero order',
+
+        'Numero order': 'Numero order',
+            'sectionCategorieSection': 'Categorie section',
+
+        'Categorie section': 'Categorie section',
+            'sectionCours': 'Cours',
+
+        'Cours': 'Cours',
+            'sectionUrl': 'Url',
+
+        'Url': 'Url',
+            'sectionContent': 'Content',
+
+        'Content': 'Content',
+            'sectionSectionItems': 'Section items',
+
+        'Section items': 'Section items',
+            'sectionSessionCours': 'Session cours',
+
+        'Session cours': 'Session cours',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'etudiantCoursHeader': 'Liste des etudiant cours',
+    'searchInput': 'Chercher...',
+    'etudiantCoursTabPan': 'Etudiant cours',
+
+
+        'Id': 'Id',
+            'etudiantCoursEtudiant': 'Etudiant',
+
+        'Etudiant': 'Etudiant',
+            'etudiantCoursProf': 'Prof',
+
+        'Prof': 'Prof',
+            'etudiantCoursCours': 'Cours',
+
+        'Cours': 'Cours',
+            'etudiantCoursPayer': 'Payer',
+
+        'Payer': 'Payer',
+            'etudiantCoursDateFin': 'Date fin',
+
+        'Date fin': 'Date fin',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'freeTrialStudentWhatsTemplateHeader': 'Liste des free trial student whats templates',
+    'searchInput': 'Chercher...',
+    'freeTrialStudentWhatsTemplateTabPan': 'Free trial student whats template',
+
+
+        'Id': 'Id',
+            'freeTrialStudentWhatsTemplateObject': 'Object',
+
+        'Object': 'Object',
+            'freeTrialStudentWhatsTemplateCorps': 'Corps',
+
+        'Corps': 'Corps',
+            'freeTrialStudentWhatsTemplateSource': 'Source',
+
+        'Source': 'Source',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'levelTestConfigurationHeader': 'Liste des level test configurations',
+    'searchInput': 'Chercher...',
+    'levelTestConfigurationTabPan': 'Level test configuration',
+
+
+        'Id': 'Id',
+            'levelTestConfigurationNoteMin': 'Note min',
+
+        'Note min': 'Note min',
+            'levelTestConfigurationNoteMax': 'Note max',
+
+        'Note max': 'Note max',
+            'levelTestConfigurationParcours': 'Parcours',
+
+        'Parcours': 'Parcours',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'statutFreeTrialHeader': 'Liste des statut free trials',
+    'searchInput': 'Chercher...',
+    'statutFreeTrialTabPan': 'Statut free trial',
+
+
+        'Id': 'Id',
+            'statutFreeTrialLibelle': 'Libelle',
+
+        'Libelle': 'Libelle',
+            'statutFreeTrialCode': 'Code',
+
+        'Code': 'Code',
+            'statutFreeTrialStyle': 'Style',
+
+        'Style': 'Style',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'reponseEtudiantHeader': 'Liste des reponse etudiants',
+    'searchInput': 'Chercher...',
+    'reponseEtudiantTabPan': 'Reponse etudiant',
+
+
+        'Id': 'Id',
+            'reponseEtudiantRef': 'Ref',
+
+        'Ref': 'Ref',
+            'reponseEtudiantReponse': 'Reponse',
+
+        'Reponse': 'Reponse',
+            'reponseEtudiantAnswer': 'Answer',
+
+        'Answer': 'Answer',
+            'reponseEtudiantQuizEtudiant': 'Quiz etudiant',
+
+        'Quiz etudiant': 'Quiz etudiant',
+            'reponseEtudiantNote': 'Note',
+
+        'Note': 'Note',
+            'reponseEtudiantQuestion': 'Question',
+
+        'Question': 'Question',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'etatEtudiantHeader': 'Liste des etat etudiants',
+    'searchInput': 'Chercher...',
+    'etatEtudiantTabPan': 'Etat etudiant',
+
+
+        'Id': 'Id',
+            'etatEtudiantReference': 'Reference',
+
+        'Reference': 'Reference',
+            'etatEtudiantUsername': 'Username',
+
+        'Username': 'Username',
+            'etatEtudiantFirstName': 'First name',
+
+        'First name': 'First name',
+            'etatEtudiantLastName': 'Last name',
+
+        'Last name': 'Last name',
+            'etatEtudiantNationnalite': 'Nationnalite',
+
+        'Nationnalite': 'Nationnalite',
+            'etatEtudiantSchedule1': 'Schedule1',
+
+        'Schedule1': 'Schedule1',
+            'etatEtudiantSchedule2': 'Schedule2',
+
+        'Schedule2': 'Schedule2',
+            'etatEtudiantLastClass': 'Last class',
+
+        'Last class': 'Last class',
+            'etatEtudiantNbrClass': 'Nbr class',
+
+        'Nbr class': 'Nbr class',
+            'etatEtudiantEtat': 'Etat',
+
+        'Etat': 'Etat',
+            'etatEtudiantEtatNumber': 'Etat number',
+
+        'Etat number': 'Etat number',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'freeTrialDetailHeader': 'Liste des free trial details',
+    'searchInput': 'Chercher...',
+    'freeTrialDetailTabPan': 'Free trial detail',
+
+
+        'Id': 'Id',
+            'freeTrialDetailFreeTrial': 'Free trial',
+
+        'Free trial': 'Free trial',
+            'freeTrialDetailEtudiant': 'Etudiant',
+
+        'Etudiant': 'Etudiant',
+            'freeTrialDetailPresence': 'Presence',
+
+        'Presence': 'Presence',
+            'freeTrialDetailWhatsUpMessageSent': 'Whats up message sent',
+
+        'Whats up message sent': 'Whats up message sent',
+            'freeTrialDetailDateEnvoiwhatsUpMessage': 'Date envoiwhats up message',
+
+        'Date envoiwhats up message': 'Date envoiwhats up message',
+            'freeTrialDetailEmailMessageSent': 'Email message sent',
+
+        'Email message sent': 'Email message sent',
+            'freeTrialDetailDateEnvoiEmailMessage': 'Date envoi email message',
+
+        'Date envoi email message': 'Date envoi email message',
+            'freeTrialDetailAbonne': 'Abonne',
+
+        'Abonne': 'Abonne',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'scheduleProfHeader': 'Liste des schedule profs',
+    'searchInput': 'Chercher...',
+    'scheduleProfTabPan': 'Schedule prof',
+
+
+        'Id': 'Id',
+            'scheduleProfSubject': 'Subject',
+
+        'Subject': 'Subject',
+            'scheduleProfStartTime': 'Start time',
+
+        'Start time': 'Start time',
+            'scheduleProfEndTime': 'End time',
+
+        'End time': 'End time',
+            'scheduleProfRef': 'Ref',
+
+        'Ref': 'Ref',
+            'scheduleProfGroupeEtudiant': 'Groupe etudiant',
+
+        'Groupe etudiant': 'Groupe etudiant',
+            'scheduleProfProf': 'Prof',
+
+        'Prof': 'Prof',
+            'scheduleProfCours': 'Cours',
+
+        'Cours': 'Cours',
+            'scheduleProfGrpName': 'Grp name',
+
+        'Grp name': 'Grp name',
+            'scheduleProfProfName': 'Prof name',
+
+        'Prof name': 'Prof name',
+            'scheduleProfProfsId': 'Profs id',
+
+        'Profs id': 'Profs id',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'fonctionHeader': 'Liste des fonctions',
+    'searchInput': 'Chercher...',
+    'fonctionTabPan': 'Fonction',
+
+
+        'Id': 'Id',
+            'fonctionCode': 'Code',
+
+        'Code': 'Code',
+            'fonctionLibelle': 'Libelle',
+
+        'Libelle': 'Libelle',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'howeWorkQSTReponseHeader': 'Liste des howe work q s t reponses',
+    'searchInput': 'Chercher...',
+    'howeWorkQSTReponseTabPan': 'Howe work q s t reponse',
+
+
+        'Id': 'Id',
+            'howeWorkQSTReponseRef': 'Ref',
+
+        'Ref': 'Ref',
+            'howeWorkQSTReponseLib': 'Lib',
+
+        'Lib': 'Lib',
+            'howeWorkQSTReponseEtatReponse': 'Etat reponse',
+
+        'Etat reponse': 'Etat reponse',
+            'howeWorkQSTReponseNumero': 'Numero',
+
+        'Numero': 'Numero',
+            'howeWorkQSTReponseHomeWorkQuestion': 'Home work question',
+
+        'Home work question': 'Home work question',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'contactHeader': 'Liste des contacts',
+    'searchInput': 'Chercher...',
+    'contactTabPan': 'Contact',
+
+
+        'Id': 'Id',
+            'contactName': 'Name',
+
+        'Name': 'Name',
+            'contactEmail': 'Email',
+
+        'Email': 'Email',
+            'contactPhone': 'Phone',
+
+        'Phone': 'Phone',
+            'contactSetFrom': 'Set from',
+
+        'Set from': 'Set from',
+            'contactDateContact': 'Date contact',
+
+        'Date contact': 'Date contact',
+            'contactReplied': 'Replied',
+
+        'Replied': 'Replied',
+            'contactMessage': 'Message',
+
+        'Message': 'Message',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'typeTeacherHeader': 'Liste des type teachers',
+    'searchInput': 'Chercher...',
+    'typeTeacherTabPan': 'Type teacher',
+
+
+        'Id': 'Id',
+            'typeTeacherLibelle': 'Libelle',
+
+        'Libelle': 'Libelle',
+            'typeTeacherCode': 'Code',
+
+        'Code': 'Code',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'etudiantClassRoomHeader': 'Liste des etudiant class rooms',
+    'searchInput': 'Chercher...',
+    'etudiantClassRoomTabPan': 'Etudiant class room',
+
+
+        'Id': 'Id',
+            'etudiantClassRoomClassRoom': 'Class room',
+
+        'Class room': 'Class room',
+            'etudiantClassRoomEtudiant': 'Etudiant',
+
+        'Etudiant': 'Etudiant',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'etatReponseHeader': 'Liste des etat reponses',
+    'searchInput': 'Chercher...',
+    'etatReponseTabPan': 'Etat reponse',
+
+
+        'Id': 'Id',
+            'etatReponseCode': 'Code',
+
+        'Code': 'Code',
+            'etatReponseLibelle': 'Libelle',
+
+        'Libelle': 'Libelle',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'resultatHomeWorkHeader': 'Liste des resultat home works',
+    'searchInput': 'Chercher...',
+    'resultatHomeWorkTabPan': 'Resultat home work',
+
+
+        'Id': 'Id',
+            'resultatHomeWorkLibelle': 'Libelle',
+
+        'Libelle': 'Libelle',
+            'resultatHomeWorkCode': 'Code',
+
+        'Code': 'Code',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'confirmationTokenHeader': 'Liste des confirmation tokens',
+    'searchInput': 'Chercher...',
+    'confirmationTokenTabPan': 'Confirmation token',
+
+
+        'Id': 'Id',
+            'confirmationTokenToken': 'Token',
+
+        'Token': 'Token',
+            'confirmationTokenExpiresAt': 'Expires at',
+
+        'Expires at': 'Expires at',
+            'confirmationTokenCreatedAt': 'Created at',
+
+        'Created at': 'Created at',
+            'confirmationTokenConfirmedAt': 'Confirmed at',
+
+        'Confirmed at': 'Confirmed at',
+            'confirmationTokenEtudiant': 'Etudiant',
+
+        'Etudiant': 'Etudiant',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'superCategorieSectionHeader': 'Liste des super categorie sections',
+    'searchInput': 'Chercher...',
+    'superCategorieSectionTabPan': 'Super categorie section',
+
+
+        'Id': 'Id',
+            'superCategorieSectionCode': 'Code',
+
+        'Code': 'Code',
+            'superCategorieSectionLibelle': 'Libelle',
+
+        'Libelle': 'Libelle',
+            'superCategorieSectionCategorieSections': 'Categorie sections',
+
+        'Categorie sections': 'Categorie sections',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'faqHeader': 'Liste des faqs',
+    'searchInput': 'Chercher...',
+    'faqTabPan': 'Faq',
+
+
+        'Id': 'Id',
+            'faqDescription': 'Description',
+
+        'Description': 'Description',
+            'faqLibelle': 'Libelle',
+
+        'Libelle': 'Libelle',
+            'faqFaqType': 'Faq type',
+
+        'Faq type': 'Faq type',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'categorieSectionHeader': 'Liste des categorie sections',
+    'searchInput': 'Chercher...',
+    'categorieSectionTabPan': 'Categorie section',
+
+
+        'Id': 'Id',
+            'categorieSectionCode': 'Code',
+
+        'Code': 'Code',
+            'categorieSectionLibelle': 'Libelle',
+
+        'Libelle': 'Libelle',
+            'categorieSectionNumeroOrder': 'Numero order',
+
+        'Numero order': 'Numero order',
+            'categorieSectionSuperCategorieSection': 'Super categorie section',
+
+        'Super categorie section': 'Super categorie section',
+            'categorieSectionSections': 'Sections',
+
+        'Sections': 'Sections',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'packStudentHeader': 'Liste des pack students',
+    'searchInput': 'Chercher...',
+    'packStudentTabPan': 'Pack student',
+
+
+        'Id': 'Id',
+            'packStudentNombreCours': 'Nombre cours',
+
+        'Nombre cours': 'Nombre cours',
+            'packStudentForGroupe': 'For groupe',
+
+        'For groupe': 'For groupe',
+            'packStudentCode': 'Code',
+
+        'Code': 'Code',
+            'packStudentLibelle': 'Libelle',
+
+        'Libelle': 'Libelle',
+            'packStudentDescription': 'Description',
+
+        'Description': 'Description',
+            'packStudentPreRequisites': 'Pre requisites',
+
+        'Pre requisites': 'Pre requisites',
+            'packStudentWhyTakeThisCourse': 'Why take this course',
+
+        'Why take this course': 'Why take this course',
+            'packStudentExpectations': 'Expectations',
+
+        'Expectations': 'Expectations',
+            'packStudentParcours': 'Parcours',
+
+        'Parcours': 'Parcours',
+            'packStudentImgUrl': 'Img url',
+
+        'Img url': 'Img url',
+            'packStudentPrice': 'Price',
+
+        'Price': 'Price',
+            'packStudentTotalStudents': 'Total students',
+
+        'Total students': 'Total students',
+            'packStudentRating': 'Rating',
+
+        'Rating': 'Rating',
+            'packStudentOldPrice': 'Old price',
+
+        'Old price': 'Old price',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'groupeEtudiantDetailHeader': 'Liste des groupe etudiant details',
+    'searchInput': 'Chercher...',
+    'groupeEtudiantDetailTabPan': 'Groupe etudiant detail',
+
+
+        'Id': 'Id',
+            'groupeEtudiantDetailGroupeEtudiant': 'Groupe etudiant',
+
+        'Groupe etudiant': 'Groupe etudiant',
+            'groupeEtudiantDetailEtudiant': 'Etudiant',
+
+        'Etudiant': 'Etudiant',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'typeDeQuestionHeader': 'Liste des type de questions',
+    'searchInput': 'Chercher...',
+    'typeDeQuestionTabPan': 'Type de question',
+
+
+        'Id': 'Id',
+            'typeDeQuestionRef': 'Ref',
+
+        'Ref': 'Ref',
+            'typeDeQuestionLib': 'Lib',
+
+        'Lib': 'Lib',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'trancheHoraireProfHeader': 'Liste des tranche horaire profs',
+    'searchInput': 'Chercher...',
+    'trancheHoraireProfTabPan': 'Tranche horaire prof',
+
+
+        'Id': 'Id',
+            'trancheHoraireProfProf': 'Prof',
+
+        'Prof': 'Prof',
+            'trancheHoraireProfStartHour': 'Start hour',
+
+        'Start hour': 'Start hour',
+            'trancheHoraireProfEndHour': 'End hour',
+
+        'End hour': 'End hour',
+            'trancheHoraireProfDay': 'Day',
+
+        'Day': 'Day',
+            'trancheHoraireProfGroupIndex': 'Group index',
+
+        'Group index': 'Group index',
+            'trancheHoraireProfProfsId': 'Profs id',
+
+        'Profs id': 'Profs id',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'freeTrialformuleHeader': 'Liste des free trialformules',
+    'searchInput': 'Chercher...',
+    'freeTrialformuleTabPan': 'Free trialformule',
+
+
+        'Id': 'Id',
+            'freeTrialformuleCode': 'Code',
+
+        'Code': 'Code',
+            'freeTrialformuleInscription': 'Inscription',
+
+        'Inscription': 'Inscription',
+            'freeTrialformuleDayspeerweek': 'Dayspeerweek',
+
+        'Dayspeerweek': 'Dayspeerweek',
+            'freeTrialformuleTimeperday': 'Timeperday',
+
+        'Timeperday': 'Timeperday',
+            'freeTrialformuleTeacherGenderoption': 'Teacher genderoption',
+
+        'Teacher genderoption': 'Teacher genderoption',
+            'freeTrialformuleTeacherAgeRange': 'Teacher age range',
+
+        'Teacher age range': 'Teacher age range',
+            'freeTrialformuleTeacherPersonnality': 'Teacher personnality',
+
+        'Teacher personnality': 'Teacher personnality',
+            'freeTrialformuleStatus': 'Status',
+
+        'Status': 'Status',
+            'freeTrialformuleDateConfirmation': 'Date confirmation',
+
+        'Date confirmation': 'Date confirmation',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'etatEtudiantScheduleHeader': 'Liste des etat etudiant schedules',
+    'searchInput': 'Chercher...',
+    'etatEtudiantScheduleTabPan': 'Etat etudiant schedule',
+
+
+        'Id': 'Id',
+            'etatEtudiantScheduleRef': 'Ref',
+
+        'Ref': 'Ref',
+            'etatEtudiantScheduleLibelle': 'Libelle',
+
+        'Libelle': 'Libelle',
+            'etatEtudiantScheduleCouleur': 'Couleur',
+
+        'Couleur': 'Couleur',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'homeWorkQuestionHeader': 'Liste des home work questions',
+    'searchInput': 'Chercher...',
+    'homeWorkQuestionTabPan': 'Home work question',
+
+
+        'Id': 'Id',
+            'homeWorkQuestionRef': 'Ref',
+
+        'Ref': 'Ref',
+            'homeWorkQuestionLibelle': 'Libelle',
+
+        'Libelle': 'Libelle',
+            'homeWorkQuestionNumero': 'Numero',
+
+        'Numero': 'Numero',
+            'homeWorkQuestionPointReponseJuste': 'Point reponse juste',
+
+        'Point reponse juste': 'Point reponse juste',
+            'homeWorkQuestionPointReponsefausse': 'Point reponsefausse',
+
+        'Point reponsefausse': 'Point reponsefausse',
+            'homeWorkQuestionTypeDeQuestion': 'Type de question',
+
+        'Type de question': 'Type de question',
+            'homeWorkQuestionHoweWorkQSTReponses': 'Howe work q s t reponses',
+
+        'Howe work q s t reponses': 'Howe work q s t reponses',
+            'homeWorkQuestionHomeWork': 'Home work',
+
+        'Home work': 'Home work',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'questionHeader': 'Liste des questions',
+    'searchInput': 'Chercher...',
+    'questionTabPan': 'Question',
+
+
+        'Id': 'Id',
+            'questionRef': 'Ref',
+
+        'Ref': 'Ref',
+            'questionLibelle': 'Libelle',
+
+        'Libelle': 'Libelle',
+            'questionUrlImg': 'Url img',
+
+        'Url img': 'Url img',
+            'questionUrlVideo': 'Url video',
+
+        'Url video': 'Url video',
+            'questionNumero': 'Numero',
+
+        'Numero': 'Numero',
+            'questionPointReponseJuste': 'Point reponse juste',
+
+        'Point reponse juste': 'Point reponse juste',
+            'questionPointReponsefausse': 'Point reponsefausse',
+
+        'Point reponsefausse': 'Point reponsefausse',
+            'questionTypeDeQuestion': 'Type de question',
+
+        'Type de question': 'Type de question',
+            'questionReponses': 'Reponses',
+
+        'Reponses': 'Reponses',
+            'questionQuiz': 'Quiz',
+
+        'Quiz': 'Quiz',
+            'questionHomeWork': 'Home work',
+
+        'Home work': 'Home work',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'recommendTeacherHeader': 'Liste des recommend teachers',
+    'searchInput': 'Chercher...',
+    'recommendTeacherTabPan': 'Recommend teacher',
+
+
+        'Id': 'Id',
+            'recommendTeacherRef': 'Ref',
+
+        'Ref': 'Ref',
+            'recommendTeacherNombrevote': 'Nombrevote',
+
+        'Nombrevote': 'Nombrevote',
+            'recommendTeacherNom': 'Nom',
+
+        'Nom': 'Nom',
+            'recommendTeacherPrenom': 'Prenom',
+
+        'Prenom': 'Prenom',
+            'recommendTeacherCommentaire': 'Commentaire',
+
+        'Commentaire': 'Commentaire',
+            'recommendTeacherTelephone': 'Telephone',
+
+        'Telephone': 'Telephone',
+            'recommendTeacherLogin': 'Login',
+
+        'Login': 'Login',
+            'recommendTeacherDateRecommamdation': 'Date recommamdation',
+
+        'Date recommamdation': 'Date recommamdation',
+            'recommendTeacherProf': 'Prof',
+
+        'Prof': 'Prof',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'priceHeader': 'Liste des prices',
+    'searchInput': 'Chercher...',
+    'priceTabPan': 'Price',
+
+
+        'Id': 'Id',
+            'pricePrice': 'Price',
+
+        'Price': 'Price',
+            'priceOldPrice': 'Old price',
+
+        'Old price': 'Old price',
+            'priceLib': 'Lib',
+
+        'Lib': 'Lib',
+            'priceNreCourse': 'Nre course',
+
+        'Nre course': 'Nre course',
+            'priceNreHours': 'Nre hours',
+
+        'Nre hours': 'Nre hours',
+            'priceNreMonth': 'Nre month',
+
+        'Nre month': 'Nre month',
+            'priceForGroup': 'For group',
+
+        'For group': 'For group',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'centreHeader': 'Liste des centres',
+    'searchInput': 'Chercher...',
+    'centreTabPan': 'Centre',
+
+
+        'Id': 'Id',
+            'centreRef': 'Ref',
+
+        'Ref': 'Ref',
+            'centreLibelle': 'Libelle',
+
+        'Libelle': 'Libelle',
+            'centreDescription': 'Description',
+
+        'Description': 'Description',
+            'centreLog': 'Log',
+
+        'Log': 'Log',
+            'centrePassword': 'Password',
+
+        'Password': 'Password',
+            'centreParcourss': 'Parcourss',
+
+        'Parcourss': 'Parcourss',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'reclamationEtudiantHeader': 'Liste des reclamation etudiants',
+    'searchInput': 'Chercher...',
+    'reclamationEtudiantTabPan': 'Reclamation etudiant',
+
+
+        'Id': 'Id',
+            'reclamationEtudiantReference': 'Reference',
+
+        'Reference': 'Reference',
+            'reclamationEtudiantDateReclamation': 'Date reclamation',
+
+        'Date reclamation': 'Date reclamation',
+            'reclamationEtudiantMessage': 'Message',
+
+        'Message': 'Message',
+            'reclamationEtudiantSetFrom': 'Set from',
+
+        'Set from': 'Set from',
+            'reclamationEtudiantImg': 'Img',
+
+        'Img': 'Img',
+            'reclamationEtudiantTraite': 'Traite',
+
+        'Traite': 'Traite',
+            'reclamationEtudiantDateTraitement': 'Date traitement',
+
+        'Date traitement': 'Date traitement',
+            'reclamationEtudiantDateReponse': 'Date reponse',
+
+        'Date reponse': 'Date reponse',
+            'reclamationEtudiantPostView': 'Post view',
+
+        'Post view': 'Post view',
+            'reclamationEtudiantObjetReclamationEtudiant': 'Objet reclamation etudiant',
+
+        'Objet reclamation etudiant': 'Objet reclamation etudiant',
+            'reclamationEtudiantCommentaireTraiteur': 'Commentaire traiteur',
+
+        'Commentaire traiteur': 'Commentaire traiteur',
+            'reclamationEtudiantUsername': 'Username',
+
+        'Username': 'Username',
+            'reclamationEtudiantTypeReclamationEtudiant': 'Type reclamation etudiant',
+
+        'Type reclamation etudiant': 'Type reclamation etudiant',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'skillHeader': 'Liste des skills',
+    'searchInput': 'Chercher...',
+    'skillTabPan': 'Skill',
+
+
+        'Id': 'Id',
+            'skillCode': 'Code',
+
+        'Code': 'Code',
+            'skillLibelle': 'Libelle',
+
+        'Libelle': 'Libelle',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'profHeader': 'Liste des profs',
+    'searchInput': 'Chercher...',
+    'profTabPan': 'Prof',
+
+
+        'Id': 'Id',
+            'profRef': 'Ref',
+
+        'Ref': 'Ref',
+            'profAbout': 'About',
+
+        'About': 'About',
+            'profEmail': 'Email',
+
+        'Email': 'Email',
+            'profLevelMin': 'Level min',
+
+        'Level min': 'Level min',
+            'profLevelMax': 'Level max',
+
+        'Level max': 'Level max',
+            'profTrancheHoraireProfList': 'Tranche horaire prof list',
+
+        'Tranche horaire prof list': 'Tranche horaire prof list',
+            'profCategorieProf': 'Categorie prof',
+
+        'Categorie prof': 'Categorie prof',
+            'profClassRooms': 'Class rooms',
+
+        'Class rooms': 'Class rooms',
+            'profRecommendTeachers': 'Recommend teachers',
+
+        'Recommend teachers': 'Recommend teachers',
+            'profTypeTeacher': 'Type teacher',
+
+        'Type teacher': 'Type teacher',
+            'profCredentialsNonExpired': 'Credentials non expired',
+
+        'Credentials non expired': 'Credentials non expired',
+            'profEnabled': 'Enabled',
+
+        'Enabled': 'Enabled',
+            'profAccountNonExpired': 'Account non expired',
+
+        'Account non expired': 'Account non expired',
+            'profAccountNonLocked': 'Account non locked',
+
+        'Account non locked': 'Account non locked',
+            'profPasswordChanged': 'Password changed',
+
+        'Password changed': 'Password changed',
+            'profCreatedAt': 'Created at',
+
+        'Created at': 'Created at',
+            'profUpdatedAt': 'Updated at',
+
+        'Updated at': 'Updated at',
+            'profUsername': 'Username',
+
+        'Username': 'Username',
+            'profPassword': 'Password',
+
+        'Password': 'Password',
+            'profPrenom': 'Prenom',
+
+        'Prenom': 'Prenom',
+            'profNom': 'Nom',
+
+        'Nom': 'Nom',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'workloadBonusHeader': 'Liste des workload bonus',
+    'searchInput': 'Chercher...',
+    'workloadBonusTabPan': 'Workload bonus',
+
+
+        'Id': 'Id',
+            'workloadBonusWorkloadBonus': 'Workload bonus',
+
+        'Workload bonus': 'Workload bonus',
+            'workloadBonusProf': 'Prof',
+
+        'Prof': 'Prof',
+            'workloadBonusMois': 'Mois',
+
+        'Mois': 'Mois',
+            'workloadBonusAnnee': 'Annee',
+
+        'Annee': 'Annee',
+            'workloadBonusSalary': 'Salary',
+
+        'Salary': 'Salary',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'langueHeader': 'Liste des langues',
+    'searchInput': 'Chercher...',
+    'langueTabPan': 'Langue',
+
+
+        'Id': 'Id',
+            'langueRef': 'Ref',
+
+        'Ref': 'Ref',
+            'langueLibelle': 'Libelle',
+
+        'Libelle': 'Libelle',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'paiementHeader': 'Liste des paiements',
+    'searchInput': 'Chercher...',
+    'paiementTabPan': 'Paiement',
+
+
+        'Id': 'Id',
+            'paiementProf': 'Prof',
+
+        'Prof': 'Prof',
+            'paiementDatePaiement': 'Date paiement',
+
+        'Date paiement': 'Date paiement',
+            'paiementGroupeEtudiant': 'Groupe etudiant',
+
+        'Groupe etudiant': 'Groupe etudiant',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'teacherLocalityHeader': 'Liste des teacher localitys',
+    'searchInput': 'Chercher...',
+    'teacherLocalityTabPan': 'Teacher locality',
+
+
+        'Id': 'Id',
+            'teacherLocalityCode': 'Code',
+
+        'Code': 'Code',
+            'teacherLocalityLibelle': 'Libelle',
+
+        'Libelle': 'Libelle',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'freeTrialStudentEmailTemplateHeader': 'Liste des free trial student email templates',
+    'searchInput': 'Chercher...',
+    'freeTrialStudentEmailTemplateTabPan': 'Free trial student email template',
+
+
+        'Id': 'Id',
+            'freeTrialStudentEmailTemplateObject': 'Object',
+
+        'Object': 'Object',
+            'freeTrialStudentEmailTemplateCorps': 'Corps',
+
+        'Corps': 'Corps',
+            'freeTrialStudentEmailTemplateSource': 'Source',
+
+        'Source': 'Source',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'reponseHeader': 'Liste des reponses',
+    'searchInput': 'Chercher...',
+    'reponseTabPan': 'Reponse',
+
+
+        'Id': 'Id',
+            'reponseRef': 'Ref',
+
+        'Ref': 'Ref',
+            'reponseLib': 'Lib',
+
+        'Lib': 'Lib',
+            'reponseEtatReponse': 'Etat reponse',
+
+        'Etat reponse': 'Etat reponse',
+            'reponseNumero': 'Numero',
+
+        'Numero': 'Numero',
+            'reponseQuestion': 'Question',
+
+        'Question': 'Question',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'interetEtudiantHeader': 'Liste des interet etudiants',
+    'searchInput': 'Chercher...',
+    'interetEtudiantTabPan': 'Interet etudiant',
+
+
+        'Id': 'Id',
+            'interetEtudiantCode': 'Code',
+
+        'Code': 'Code',
+            'interetEtudiantLibelle': 'Libelle',
+
+        'Libelle': 'Libelle',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'quizEtudiantHeader': 'Liste des quiz etudiants',
+    'searchInput': 'Chercher...',
+    'quizEtudiantTabPan': 'Quiz etudiant',
+
+
+        'Id': 'Id',
+            'quizEtudiantRef': 'Ref',
+
+        'Ref': 'Ref',
+            'quizEtudiantEtudiant': 'Etudiant',
+
+        'Etudiant': 'Etudiant',
+            'quizEtudiantQuiz': 'Quiz',
+
+        'Quiz': 'Quiz',
+            'quizEtudiantReponseEtudiants': 'Reponse etudiants',
+
+        'Reponse etudiants': 'Reponse etudiants',
+            'quizEtudiantNote': 'Note',
+
+        'Note': 'Note',
+            'quizEtudiantResultat': 'Resultat',
+
+        'Resultat': 'Resultat',
+            'quizEtudiantQuestionCurrent': 'Question current',
+
+        'Question current': 'Question current',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'dictionaryHeader': 'Liste des dictionarys',
+    'searchInput': 'Chercher...',
+    'dictionaryTabPan': 'Dictionary',
+
+
+        'Id': 'Id',
+            'dictionaryWord': 'Word',
+
+        'Word': 'Word',
+            'dictionaryDefinition': 'Definition',
+
+        'Definition': 'Definition',
+            'dictionaryEtudiant': 'Etudiant',
+
+        'Etudiant': 'Etudiant',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'salaryHeader': 'Liste des salarys',
+    'searchInput': 'Chercher...',
+    'salaryTabPan': 'Salary',
+
+
+        'Id': 'Id',
+            'salaryCode': 'Code',
+
+        'Code': 'Code',
+            'salaryProf': 'Prof',
+
+        'Prof': 'Prof',
+            'salaryMois': 'Mois',
+
+        'Mois': 'Mois',
+            'salaryAnnee': 'Annee',
+
+        'Annee': 'Annee',
+            'salaryNbrSessionMensuel': 'Nbr session mensuel',
+
+        'Nbr session mensuel': 'Nbr session mensuel',
+            'salaryPayer': 'Payer',
+
+        'Payer': 'Payer',
+            'salaryTotalPayment': 'Total payment',
+
+        'Total payment': 'Total payment',
+            'salaryTotalBonusClassAverage': 'Total bonus class average',
+
+        'Total bonus class average': 'Total bonus class average',
+            'salaryTotalBonusWorkload': 'Total bonus workload',
+
+        'Total bonus workload': 'Total bonus workload',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'etatCoursHeader': 'Liste des etat cours',
+    'searchInput': 'Chercher...',
+    'etatCoursTabPan': 'Etat cours',
+
+
+        'Id': 'Id',
+            'etatCoursCode': 'Code',
+
+        'Code': 'Code',
+            'etatCoursLibelle': 'Libelle',
+
+        'Libelle': 'Libelle',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'profReviewHeader': 'Liste des prof reviews',
+    'searchInput': 'Chercher...',
+    'profReviewTabPan': 'Prof review',
+
+
+        'Id': 'Id',
+            'profReviewEtudiant': 'Etudiant',
+
+        'Etudiant': 'Etudiant',
+            'profReviewProf': 'Prof',
+
+        'Prof': 'Prof',
+            'profReviewCours': 'Cours',
+
+        'Cours': 'Cours',
+            'profReviewReview': 'Review',
+
+        'Review': 'Review',
+            'profReviewComment': 'Comment',
+
+        'Comment': 'Comment',
+            'profReviewDateReview': 'Date review',
+
+        'Date review': 'Date review',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'reclamationProfHeader': 'Liste des reclamation profs',
+    'searchInput': 'Chercher...',
+    'reclamationProfTabPan': 'Reclamation prof',
+
+
+        'Id': 'Id',
+            'reclamationProfReference': 'Reference',
+
+        'Reference': 'Reference',
+            'reclamationProfDateReclamation': 'Date reclamation',
+
+        'Date reclamation': 'Date reclamation',
+            'reclamationProfMessage': 'Message',
+
+        'Message': 'Message',
+            'reclamationProfTraite': 'Traite',
+
+        'Traite': 'Traite',
+            'reclamationProfDateTraitement': 'Date traitement',
+
+        'Date traitement': 'Date traitement',
+            'reclamationProfDateReponse': 'Date reponse',
+
+        'Date reponse': 'Date reponse',
+            'reclamationProfPostView': 'Post view',
+
+        'Post view': 'Post view',
+            'reclamationProfCommentaireTraiteur': 'Commentaire traiteur',
+
+        'Commentaire traiteur': 'Commentaire traiteur',
+            'reclamationProfObjetReclamationProf': 'Objet reclamation prof',
+
+        'Objet reclamation prof': 'Objet reclamation prof',
+            'reclamationProfAdmin': 'Admin',
+
+        'Admin': 'Admin',
+            'reclamationProfProf': 'Prof',
+
+        'Prof': 'Prof',
+            'reclamationProfTypeReclamationProf': 'Type reclamation prof',
+
+        'Type reclamation prof': 'Type reclamation prof',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'vocabularyQuizHeader': 'Liste des vocabulary quizs',
+    'searchInput': 'Chercher...',
+    'vocabularyQuizTabPan': 'Vocabulary quiz',
+
+
+        'Id': 'Id',
+            'vocabularyQuizLibelle': 'Libelle',
+
+        'Libelle': 'Libelle',
+            'vocabularyQuizDateDebut': 'Date debut',
+
+        'Date debut': 'Date debut',
+            'vocabularyQuizDateFin': 'Date fin',
+
+        'Date fin': 'Date fin',
+            'vocabularyQuizVocabularys': 'Vocabularys',
+
+        'Vocabularys': 'Vocabularys',
+            'vocabularyQuizSection': 'Section',
+
+        'Section': 'Section',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'faqEtudiantHeader': 'Liste des faq etudiants',
+    'searchInput': 'Chercher...',
+    'faqEtudiantTabPan': 'Faq etudiant',
+
+
+        'Id': 'Id',
+            'faqEtudiantDescription': 'Description',
+
+        'Description': 'Description',
+            'faqEtudiantLibelle': 'Libelle',
+
+        'Libelle': 'Libelle',
+            'faqEtudiantEtudiant': 'Etudiant',
+
+        'Etudiant': 'Etudiant',
+            'faqEtudiantAdmin': 'Admin',
+
+        'Admin': 'Admin',
+            'faqEtudiantFaqType': 'Faq type',
+
+        'Faq type': 'Faq type',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'freeTrialTeacherEmailTemplateHeader': 'Liste des free trial teacher email templates',
+    'searchInput': 'Chercher...',
+    'freeTrialTeacherEmailTemplateTabPan': 'Free trial teacher email template',
+
+
+        'Id': 'Id',
+            'freeTrialTeacherEmailTemplateObject': 'Object',
+
+        'Object': 'Object',
+            'freeTrialTeacherEmailTemplateCorps': 'Corps',
+
+        'Corps': 'Corps',
+            'freeTrialTeacherEmailTemplateSource': 'Source',
+
+        'Source': 'Source',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'vocabularyHeader': 'Liste des vocabularys',
+    'searchInput': 'Chercher...',
+    'vocabularyTabPan': 'Vocabulary',
+
+
+        'Id': 'Id',
+            'vocabularyRef': 'Ref',
+
+        'Ref': 'Ref',
+            'vocabularyNumero': 'Numero',
+
+        'Numero': 'Numero',
+            'vocabularyWord': 'Word',
+
+        'Word': 'Word',
+            'vocabularyLibelle': 'Libelle',
+
+        'Libelle': 'Libelle',
+            'vocabularyResult': 'Result',
+
+        'Result': 'Result',
+            'vocabularyExplication': 'Explication',
+
+        'Explication': 'Explication',
+            'vocabularyExemple': 'Exemple',
+
+        'Exemple': 'Exemple',
+            'vocabularyImage': 'Image',
+
+        'Image': 'Image',
+            'vocabularySection': 'Section',
+
+        'Section': 'Section',
+            'vocabularyVocabularyQuiz': 'Vocabulary quiz',
+
+        'Vocabulary quiz': 'Vocabulary quiz',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'etudiantReviewHeader': 'Liste des etudiant reviews',
+    'searchInput': 'Chercher...',
+    'etudiantReviewTabPan': 'Etudiant review',
+
+
+        'Id': 'Id',
+            'etudiantReviewEtudiant': 'Etudiant',
+
+        'Etudiant': 'Etudiant',
+            'etudiantReviewProf': 'Prof',
+
+        'Prof': 'Prof',
+            'etudiantReviewCours': 'Cours',
+
+        'Cours': 'Cours',
+            'etudiantReviewReview': 'Review',
+
+        'Review': 'Review',
+            'etudiantReviewComment': 'Comment',
+
+        'Comment': 'Comment',
+            'etudiantReviewDateReview': 'Date review',
+
+        'Date review': 'Date review',
+    'Les éléments de {first} à {last} sur {totalRecords} ': 'Les éléments de {first} à {last} sur {totalRecords} ',
+    'faqProfHeader': 'Liste des faq profs',
+    'searchInput': 'Chercher...',
+    'faqProfTabPan': 'Faq prof',
+
+
+        'Id': 'Id',
+            'faqProfDescription': 'Description',
+
+        'Description': 'Description',
+            'faqProfLibelle': 'Libelle',
+
+        'Libelle': 'Libelle',
+            'faqProfProf': 'Prof',
+
+        'Prof': 'Prof',
+            'faqProfAdmin': 'Admin',
+
+        'Admin': 'Admin',
+            'faqProfFaqType': 'Faq type',
+
+        'Faq type': 'Faq type',
+}
+
+
